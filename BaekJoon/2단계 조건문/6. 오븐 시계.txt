@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int C = sc.nextInt();
+        int D = 0;
+
+        if(A==0) B += (24*60) + C;
+        else B += (A*60) + C;
+        
+        D = B/60;
+        if(D>=24) D -= 24;
+
+        System.out.print(D + " " + B%60);
+    }
+}

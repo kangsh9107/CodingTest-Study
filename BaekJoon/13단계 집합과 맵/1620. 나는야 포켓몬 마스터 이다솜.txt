@@ -1,0 +1,82 @@
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.IOException;
+import java.util.StringTokenizer;
+import java.util.HashMap;
+public class Main {
+	public static void main(String[] args) throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringBuilder sb = new StringBuilder();
+		StringTokenizer st = new StringTokenizer(br.readLine());
+		int N = Integer.parseInt(st.nextToken());
+		int M = Integer.parseInt(st.nextToken());
+		HashMap<Integer, String> intMap = new HashMap<>();
+		HashMap<String, Integer> strMap = new HashMap<>();
+
+		for(int i=1; i<=N; i++) {
+			String name = br.readLine();
+			intMap.put(i, name);
+			strMap.put(name, i);
+		}
+
+		for(int i=1; i<=M; i++) {
+			String temp = br.readLine();
+
+			if(isNum(temp)) sb.append(intMap.get(Integer.parseInt(temp))).append("\n");
+			else sb.append(strMap.get(temp)).append("\n");
+		}
+
+		System.out.println(sb);
+	}
+
+	public static boolean isNum(String s) {
+		try {
+			Double.parseDouble(s);
+			return true;
+		} catch(Exception ex) {
+			return false;
+		}
+	}
+}
+
+2022-10-23 시간초과
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.StringTokenizer;
+public class Main {
+	public static void main(String[] args) throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringBuilder sb = new StringBuilder();
+		StringTokenizer st = new StringTokenizer(br.readLine());
+		int N = Integer.parseInt(st.nextToken());
+		int M = Integer.parseInt(st.nextToken());
+		List<String> list1 = new ArrayList<>();
+		list1.add("");
+		
+		for(int i=1; i<=N; i++) {
+			list1.add(br.readLine());
+		}
+		
+		List<String> list2 = new ArrayList<>();
+		list2.add("");
+		
+		for(int i=1; i<=M; i++) {
+			list2.add(br.readLine());
+			
+			if(isNumeric(list2.get(i))) System.out.println(list1.get(Integer.parseInt(list2.get(i))));
+			else System.out.println(list1.indexOf(list2.get(i)));
+		}
+	}
+	
+	public static boolean isNumeric(String str) {
+		try {
+			Double.parseDouble(str);
+			return true;
+		} catch(Exception ex) {
+			return false;
+		}
+	}
+}

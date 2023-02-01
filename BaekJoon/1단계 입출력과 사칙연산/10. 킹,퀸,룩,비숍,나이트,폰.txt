@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n1 = Integer.parseInt(sc.next());
+        int n2 = Integer.parseInt(sc.next());
+        int n3 = Integer.parseInt(sc.next());
+        int n4 = Integer.parseInt(sc.next());
+        int n5 = Integer.parseInt(sc.next());
+        int n6 = Integer.parseInt(sc.next());
+        
+        n1 = 1 - n1;
+        n2 = 1 - n2;
+        n3 = 2 - n3;
+        n4 = 2 - n4;
+        n5 = 2 - n5;
+        n6 = 8 - n6;
+
+        System.out.print(n1 + " " + n2 + " " + n3 + " " + n4 + " " + n5 + " " + n6);
+    }
+}

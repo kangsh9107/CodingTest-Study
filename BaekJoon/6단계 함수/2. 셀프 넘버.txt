@@ -1,0 +1,23 @@
+public class Main {
+	public static void main(String[] args) {
+		boolean[] isNaS = new boolean[10000];
+
+		for(int i=0; i<10000; i++) {
+			if(d(i) < 10000) isNaS[d(i)] = true;
+		}
+
+		for(int i=0; i<10000; i++) {
+			if(isNaS[i] == false) System.out.println(i);
+		}
+	}
+
+	public static int d(int n) {
+		int sum = n;
+
+		while(n != 0) {
+			sum += n % 10;
+			n = n / 10;
+		}
+		return sum;
+	}
+}

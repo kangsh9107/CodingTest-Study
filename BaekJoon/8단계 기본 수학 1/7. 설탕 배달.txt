@@ -1,0 +1,26 @@
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.IOException;
+public class Main {
+	public static void main(String[] args) throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		int N = Integer.parseInt(br.readLine());
+		int x = 3;
+		int y = 5;
+		int ans = 0;
+
+		for(int i=N/5; i>=0; i--) {
+			y = 5 * i;
+			for(int j=0; j<=N/3; j++) {
+				x = 3 * j;
+				if(N == x+y) {
+					ans = i + j;
+					System.out.print(ans);
+					break;
+				}
+			}
+			if(N == x+y) break;
+		}
+		if(ans == 0) System.out.print(-1);
+	}
+}
