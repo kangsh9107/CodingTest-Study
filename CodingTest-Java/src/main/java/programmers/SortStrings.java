@@ -3,9 +3,8 @@ package programmers;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.HashMap;
 import java.util.Iterator;
-import java.util.LinkedHashMap;
-import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 
@@ -27,29 +26,28 @@ public class SortStrings {
 	public List<String> solution(String[] strings, int n) {
 		List<String> answer = new ArrayList<>();
 		
-		Map<String, String> sort = new LinkedHashMap<>();
+		//주어진 문자열을 <문자열, n번째 인덱스 문자 아스키 코드>로 저장
+		Map<String, Integer> hm = new HashMap<>();
 		for(String s: strings) {
-			sort.put(s, s.substring(n, n+1));
+			hm.put(s, s.charAt(n)-'0');
 		}
-		System.out.println(sort);
-		
-		//value 내림차순으로 정렬하고, value가 같으면 key 오름차순으로 정렬
-//        List<Map.Entry<String, Integer>> list = new LinkedList<>(countHashTag.entrySet());
-//        Collections.sort(list, new Comparator<Map.Entry<String, Integer>>() {
-//            @Override
-//            public int compare(Map.Entry<String, Integer> o1, Map.Entry<String, Integer> o2) {
-//                if (o1.getValue() > o2.getValue())      return -1;
-//                else if (o1.getValue() < o2.getValue()) return 1;
-//                
-//                return o1.getKey().compareTo(o2.getKey());
-//            }
-//        });
-//        //순서유지를 위해 LinkedHashMap을 사용
-//        Map<String, Integer> sortedMap = new LinkedHashMap<>();
-//        for(Iterator<Map.Entry<String, Integer>> iter = list.iterator(); iter.hasNext();) {
-//            Map.Entry<String, Integer> entry = iter.next();
-//            sortedMap.put(entry.getKey(), entry.getValue());
-//        }
+		//value로 오름차순 정렬, value가 같으면 key로 오름차순 정렬
+        List<Map.Entry<String, Integer>> sort = new ArrayList<>(hm.entrySet());
+        Collections.sort(sort, new Comparator<Map.Entry<String, Integer>>() {
+            @Override
+            public int compare(Map.Entry<String, Integer> o1, Map.Entry<String, Integer> o2) {
+            	System.out.println("o1 : " + o1.getKey());
+            	System.out.println("o2 : " + o2.getKey());
+                if(o1.getValue() > o2.getValue())      return 1;
+                else if(o1.getValue() < o2.getValue()) return -1;
+                return o1.getKey().compareTo(o2.getKey());
+            }
+        });
+        //정렬한 순서대로 answer에 추가
+        for(Iterator<Map.Entry<String, Integer>> iter = sort.iterator(); iter.hasNext();) {
+            Map.Entry<String, Integer> entry = iter.next();
+            answer.add(entry.getKey());
+        }
 		
 		return answer;
 	}
