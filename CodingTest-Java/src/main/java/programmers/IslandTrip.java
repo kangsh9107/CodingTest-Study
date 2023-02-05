@@ -5,6 +5,8 @@ import java.util.List;
 
 public class IslandTrip {
 
+	//프로그래머스 자바 Level 2 무인도 여행
+	//https://school.programmers.co.kr/learn/courses/30/lessons/154540
 	public static void main(String[] args) {
 		IslandTrip it = new IslandTrip();
 		
@@ -17,30 +19,36 @@ public class IslandTrip {
 	
 	public List<Integer> solution(String[] maps) {
 		int countX = 0;
-		int countM = 0;
 		for(int i=0; i<maps.length; i++) {
-			countX += maps[i].length() - maps[i].replace("X", "").length();
+			countX += maps[i].length() - maps[i].replaceAll("X", "").length();
 		}
-		for(int i=0; i<maps.length; i++) {
-			countM += maps[i].length();
-		}
-		if(countX == countM) {
+		if( countX == (maps.length*maps[0].length()) ) {
 			List<Integer> noFood = new ArrayList<>();
 			noFood.add(-1);
 			return noFood;
 		}
 		
-		int rows = maps[0].length();
-		int columns = maps.length;
-		String[][] food = new String[columns][rows];
 		List<Integer> answer = new ArrayList<>();
-		for(int i=0; i<columns; i++) {
-			for(int j=0; j<rows; j++) {
+		List<Integer> indexI = new ArrayList<>();
+		List<Integer> indexJ = new ArrayList<>();
+		String[][] food = new String[maps.length][maps[0].length()];
+		int cnt = 0;
+		for(int i=0; i<maps.length; i++) {
+			for(int j=0; j<maps[0].length(); j++) {
 				food[i][j] = maps[i].split("")[j];
+				System.out.print(food[i][j]);
+				try {
+					Integer.parseInt(maps[i].split("")[j]);
+					indexI.add(i);
+					indexJ.add(j);
+				} catch(Exception e) {
+					
+				}
 			}
+			System.out.println();
 		}
-		
-		
+		System.out.println(indexI);
+		System.out.println(indexJ);
 		
 		return answer;
 	}
