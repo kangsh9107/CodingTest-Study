@@ -26,6 +26,9 @@ public class BigOrSmall {
 			int temp = Integer.parseInt(t.substring(i, i+p.length()));
 			if(Integer.parseInt(p) >= temp) answer++;
 		}
+		
+		
+		
 		return answer;
 	}
 
