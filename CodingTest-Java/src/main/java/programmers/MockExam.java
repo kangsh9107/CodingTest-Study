@@ -32,6 +32,7 @@ public class MockExam {
 		}
 		
 		List<Integer> answer = new ArrayList<>();
+		if(cntOne == 0 && cntTwo == 0 && cntThree == 0) return answer;
 		if(cntOne == cntTwo && cntOne == cntThree) {
 			answer.add(1);
 			answer.add(2);
