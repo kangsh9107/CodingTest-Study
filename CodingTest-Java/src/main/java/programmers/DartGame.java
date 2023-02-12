@@ -1,18 +1,20 @@
 package programmers;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class DartGame {
 
 	public static void main(String[] args) {
 		DartGame dg = new DartGame();
 		
-		String dartResult1 = "1S2D*3T";
-		System.out.println(dg.solution(dartResult1));
+//		String dartResult1 = "1S2D*3T";
+//		System.out.println(dg.solution(dartResult1));
 		
-//		String dartResult2 = "1D2S#10S";
-//		System.out.println(dg.solution(dartResult2));
+		String dartResult2 = "1D2S#10S";
+		System.out.println(dg.solution(dartResult2));
 //		
 //		String dartResult3 = "1D2S0T";
 //		System.out.println(dg.solution(dartResult3));
@@ -34,9 +36,21 @@ public class DartGame {
 		int answer = 0;
 		
 		String[] splitDartResult = dartResult.split("");
+		Map<Integer, Integer> indexScore = new HashMap<>();
+		Map<Integer, String> indexBonusOption = new HashMap<>();
 		for(int i=0; i<splitDartResult.length; i++) {
 			try {
-				Integer.parseInt(splitDartResult[i]);
+				indexScore.put(i, Integer.parseInt(splitDartResult[i]));
+			} catch(Exception e) {
+				indexBonusOption.put(i, splitDartResult[i]);
+			}
+		}
+		System.out.println(indexScore);
+		
+		List<Integer> score = new ArrayList<>();
+		for(int i=0; i<12; i++) {
+			try {
+				indexScore.get(i);
 			} catch(Exception e) {
 				
 			}
