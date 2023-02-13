@@ -5,6 +5,8 @@ import java.util.Map;
 
 public class GymSuit {
 
+	//프로그래머스 Level 1. 체육복
+	//https://school.programmers.co.kr/learn/courses/30/lessons/42862
 	public static void main(String[] args) {
 		GymSuit gs = new GymSuit();
 		
