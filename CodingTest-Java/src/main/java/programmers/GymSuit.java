@@ -26,37 +26,86 @@ public class GymSuit {
 	
 	public int solution(int n, int[] lost, int[] reserve) {
 		int answer = 0;
-		Map<Integer, Integer> max = new HashMap<>();
+		Map<Integer, Integer> currentGymSuit = new HashMap<>();
 		for(int i=1; i<=n; i++) {
-			max.put(i, 1);
+			currentGymSuit.put(i, 1);
 		}
-		for(int j=0; j<lost.length; j++) {
-			max.put(lost[j], 0);
+		for(int i=0; i<reserve.length; i++) {
+			currentGymSuit.put(reserve[i], 2);
 		}
-		for(int k=0; k<reserve.length; k++) {
-			max.put(reserve[k], 2);
+		for(int i=0; i<lost.length; i++) {
+			currentGymSuit.put(lost[i], currentGymSuit.get(lost[i])-1);
 		}
-		
-		for(int l=1; l<=n; l++) {
-			if(max.get(l) == 2) {
+
+		for(Integer key : currentGymSuit.keySet()) {
+			if(currentGymSuit.get(key) == 2) {
 				try {
-					if(max.get(l+1) == 0) {
-						max.put(l, 1);
-						max.put(l+1, 1);
-					} else if(max.get(l-1) == 0) {
-						max.put(l, 1);
-						max.put(l-1, 1);
+					if(currentGymSuit.get(key+1) == 0) {
+						currentGymSuit.put(key, 1);
+						currentGymSuit.put(key+1, 1);
 					}
 				} catch(Exception e) {
 					
 				}
 			}
 		}
-		for(Integer key : max.keySet()) {
-			if(max.get(key) > 0) answer++;
+		for(Integer key : currentGymSuit.keySet()) {
+			if(currentGymSuit.get(key) == 2) {
+				try {
+					if(currentGymSuit.get(key-1) == 0) {
+						currentGymSuit.put(key, 1);
+						currentGymSuit.put(key-1, 1);
+					}
+				} catch(Exception e) {
+					
+				}
+			}
+		}
+		for(Integer key : currentGymSuit.keySet()) {
+			if(currentGymSuit.get(key) > 0) answer++;
 		}
 		
-		return answer;
+		int answer2 = 0;
+		Map<Integer, Integer> currentGymSuit2 = new HashMap<>();
+		for(int i=1; i<=n; i++) {
+			currentGymSuit2.put(i, 1);
+		}
+		for(int i=0; i<reserve.length; i++) {
+			currentGymSuit2.put(reserve[i], 2);
+		}
+		for(int i=0; i<lost.length; i++) {
+			currentGymSuit2.put(lost[i], currentGymSuit2.get(lost[i])-1);
+		}
+
+		for(Integer key : currentGymSuit2.keySet()) {
+			if(currentGymSuit2.get(key) == 2) {
+				try {
+					if(currentGymSuit2.get(key-1) == 0) {
+						currentGymSuit2.put(key, 1);
+						currentGymSuit2.put(key-1, 1);
+					}
+				} catch(Exception e) {
+					
+				}
+			}
+		}
+		for(Integer key : currentGymSuit2.keySet()) {
+			if(currentGymSuit2.get(key) == 2) {
+				try {
+					if(currentGymSuit2.get(key+1) == 0) {
+						currentGymSuit2.put(key, 1);
+						currentGymSuit2.put(key+1, 1);
+					}
+				} catch(Exception e) {
+					
+				}
+			}
+		}
+		for(Integer key : currentGymSuit2.keySet()) {
+			if(currentGymSuit2.get(key) > 0) answer2++;
+		}
+		
+		return Math.max(answer, answer2);
 	}
 
 }
