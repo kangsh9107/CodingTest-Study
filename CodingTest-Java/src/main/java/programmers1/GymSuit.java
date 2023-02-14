@@ -38,7 +38,7 @@ public class GymSuit {
 		for(int i=0; i<lost.length; i++) {
 			currentGymSuit.put(lost[i], currentGymSuit.get(lost[i])-1);
 		}
-
+		
 		for(Integer key : currentGymSuit.keySet()) {
 			if(currentGymSuit.get(key) == 2) {
 				try {
