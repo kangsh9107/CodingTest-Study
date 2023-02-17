@@ -1,5 +1,8 @@
 package programmers0;
 
+import java.util.Arrays;
+import java.util.Collections;
+
 public class Emergency {
 
 	//프로그래머스 Level 0. 진료순서 정하기
@@ -18,9 +21,18 @@ public class Emergency {
 	}
 	
     public int[] solution(int[] emergency) {
-        int[] answer = {};
+        int[] answer = new int[emergency.length];
+        Integer[] sortedEmergency = new Integer[emergency.length];
+        for(int i=0; i<emergency.length; i++) {
+        	sortedEmergency[i] = emergency[i];
+        }
+        Arrays.sort(sortedEmergency, Collections.reverseOrder());
         
-        
+        for(int i=0; i<emergency.length; i++) {
+        	for(int j=0; j<sortedEmergency.length; j++) {
+        		if(emergency[i] == sortedEmergency[j]) answer[i] = j + 1;
+        	}
+        }
         
         return answer;
     }
