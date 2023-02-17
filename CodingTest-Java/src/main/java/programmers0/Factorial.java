@@ -17,11 +17,14 @@ public class Factorial {
     public int solution(int n) {
         int answer = 0;
         int factorial = 1;
-        for(int i=2; i<=n; i++) {
+        for(int i=1; i<=n; i++) {
             factorial *= i;
             if(factorial > n) {
-            	answer = i-1;
-            	break;
+                answer = i - 1;
+                break;
+            } else if(factorial == n) {
+                answer = i;
+                break;
             }
         }
         return answer;

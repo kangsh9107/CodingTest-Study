@@ -16,8 +16,14 @@ public class ChickenCoupon {
 	
 	public int solution(int chicken) {
 		int answer = 0;
-		
-		
+		int coupon = chicken;
+		int service = (int)(coupon/10);
+		while(coupon + service > 10) {
+			service = (int)(coupon/10);
+			answer += service;
+			coupon %= 10;
+			coupon += service;
+		}
 		
 		return answer;
 	}
