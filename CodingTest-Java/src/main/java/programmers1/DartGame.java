@@ -7,6 +7,8 @@ import java.util.Map;
 
 public class DartGame {
 
+	//프로그래머스 Level 1. [1차] 다트 게임
+	//https://school.programmers.co.kr/learn/courses/30/lessons/17682
 	public static void main(String[] args) {
 		DartGame dg = new DartGame();
 		
