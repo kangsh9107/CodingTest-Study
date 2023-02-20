@@ -21,8 +21,23 @@ public class PlusPolynomial {
         String[] splitP = polynomial.split(" ");
         for(String sp : splitP) {
         	if( !sp.equals("+") ) {
-        		System.out.println("sp : " + sp);
+        		try {
+        			num += Integer.parseInt(sp);
+        		} catch(Exception e) {
+        			if(sp.equals("x")) x++;
+        			else x += Integer.parseInt(sp.substring(0, sp.length()-1));
+        		}
         	}
+        }
+        
+        if(x == 0 && num != 0) {
+        	answer = Integer.toString(num);
+        } else if(x != 0 && num == 0) {
+        	if(x == 1) answer = "x";
+        	else       answer = x + "x";
+        } else if(x != 0 && num != 0) {
+        	if(x == 1) answer = "x + " + num;
+        	else       answer = x + "x + " + num;
         }
         return answer;
     }
