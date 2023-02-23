@@ -11,17 +11,20 @@ public class RankingSystem {
 //		int[][] score1 = {{80, 70}, {90, 50}, {40, 70}, {50, 80}};
 //		System.out.println(rs.solution(score1));
 		
-		int[][] score2 = {{80, 70}, {70, 80}, {30, 50}, {90, 100}, {100, 90}, {100, 100}, {10, 30}};
-		System.out.println(rs.solution(score2));
+//		int[][] score2 = {{80, 70}, {70, 80}, {30, 50}, {90, 100}, {100, 90}, {100, 100}, {10, 30}};
+//		System.out.println(rs.solution(score2));
+		
+		int[][] score3 = {{1, 2}, {1, 1}, {1, 1}};
+		System.out.println(rs.solution(score3));
 	}
 	
     public int[] solution(int[][] score) {
         int[] answer = new int[score.length];
-        int[] avg = new int[score.length];
-        Integer[] sortedAvg = new Integer[score.length];
+        double[] avg = new double[score.length];
+        Double[] sortedAvg = new Double[score.length];
         for(int i=0; i<score.length; i++) {
-        	avg[i] = (score[i][0] + score[i][1]) / 2;
-        	sortedAvg[i] = (score[i][0] + score[i][1]) / 2;
+        	avg[i] = (double)(score[i][0] + score[i][1]) / 2;
+        	sortedAvg[i] = (double)(score[i][0] + score[i][1]) / 2;
         }
         Arrays.sort(sortedAvg, Collections.reverseOrder());
         
