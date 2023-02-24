@@ -71,7 +71,7 @@
 |064|JAVA|가까운 수|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120890)|83%|
 |065|JAVA|진료순서 정하기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120835)|82%|
 |066|JAVA|k의 개수|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120887)|82%|
-|067|JAVA|한 번만 등장한 문자|완료|[바로가기]()|[바로가기]https://school.programmers.co.kr/learn/courses/30/lessons/120896)|82%|
+|067|JAVA|한 번만 등장한 문자|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120896)|82%|
 |068|JAVA|숨어있는 숫자의 덧셈 (2)|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120864)|81%|
 |069|JAVA|이진수 더하기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120885)|81%|
 |070|JAVA|7의 개수|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120912)|80%|
