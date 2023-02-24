@@ -1,9 +1,9 @@
-1. 백준
+## BAEKJOON
 
 [![Solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=lushhush)](https://solved.ac/lushhush)
 
 
-2. 프로그래머스
+## 프로그래머스
 
 | 문제 난이도 | 문제 링크 | 해결한 문제 | 전체 문제 | 해결비율(%) |
 | :--: |:--: |:--: |:--: |:--: |
