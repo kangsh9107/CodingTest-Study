@@ -89,10 +89,10 @@
 |082|JAVA|코딩테스트 입문|직사각형 넓이 구하기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120860)|73%|
 |083|JAVA|코딩테스트 입문|로그인 성공?|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120883)|72%|
 |084|JAVA|코딩테스트 입문|치킨 쿠폰|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120884)|71%|
-|085|JAVA|코딩테스트 입문|유한소수 판별하기|도전 하기|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120878)|70%|
+|085|JAVA|코딩테스트 입문|유한소수 판별하기|도전 하기|[바로가기]|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120878)|70%|
 |086|JAVA|코딩테스트 입문|등수 매기기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120882)|70%|
 |087|JAVA|코딩테스트 입문|문자열 밀기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120921)|70%|
-|088|JAVA|코딩테스트 입문|특이한 정렬|도전 하기|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120880)|69%|
+|088|JAVA|코딩테스트 입문|특이한 정렬|도전 하기|[바로가기]|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120880)|69%|
 |089|JAVA|코딩테스트 입문|저주의 숫자 3|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120871)|69%|
 |090|JAVA|코딩테스트 입문|다항식 더하기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120863)|67%|
 |091|JAVA|코딩테스트 입문|최빈값 구하기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120812)|64%|
@@ -100,7 +100,7 @@
 |093|JAVA|코딩테스트 입문|다음에 올 숫자|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120924)|58%|
 |094|JAVA|코딩테스트 입문|분수의 덧셈|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120808)|58%|
 |095|JAVA|코딩테스트 입문|연속된 수의 합|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120923)|56%|
-|096|JAVA|코딩테스트 입문|안전지대|도전 하기|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120866)|55%|
-|097|JAVA|코딩테스트 입문|겹치는 선분의 길이|도전 하기|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120876)|53%|
+|096|JAVA|코딩테스트 입문|안전지대|도전 하기|[바로가기]|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120866)|55%|
+|097|JAVA|코딩테스트 입문|겹치는 선분의 길이|도전 하기|[바로가기]|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120876)|53%|
 |098|JAVA|코딩테스트 입문|평행|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120875)|48%|
 |099|JAVA|코딩테스트 입문|옹알이 (1)|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120956)|28%|
