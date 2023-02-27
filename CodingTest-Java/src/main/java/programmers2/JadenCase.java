@@ -5,30 +5,31 @@ public class JadenCase {
 	public static void main(String[] args) {
 		JadenCase jc = new JadenCase();
 		
-		String s1 = "3people unFollowed me";
-		System.out.println(jc.solution(s1));
-		
+//		String s1 = "3people unFollowed me";
+//		System.out.println(jc.solution(s1));
+//		
 //		String s2 = "for the last week";
 //		System.out.println(jc.solution(s2));
+		
+		String s3 = "for the  last week";
+		System.out.println(jc.solution(s3));
 	}
 	
     public String solution(String s) {
         StringBuilder answer = new StringBuilder();
-        String[] splitS = s.split(" ");
-        for(int i=0; i<splitS.length; i++) {
-            for(int j=0; j<splitS[i].length(); j++) {
-                if(j == 0) {
-                    try {
-                        answer.append(splitS[i].substring(j, j+1).toUpperCase());
-                    } catch(Exception e) {
-                        answer.append(splitS[i].substring(j, j+1));
-                    }
-                } else {
-                    answer.append(splitS[i].substring(j, j+1).toLowerCase());
-                }
-            }
-            if(i < splitS.length - 1) answer.append(" ");
+        int cnt = 0;
+        for(int i=0; i<s.length(); i++) {
+        	if(s.substring(i, i+1).equals(" ")) {
+        		cnt = 0;
+        		answer.append(" ");
+        	} else if(cnt == 0) {
+        		cnt++;
+        		answer.append(s.substring(i, i+1).toUpperCase());
+        	} else {
+        		answer.append(s.substring(i, i+1).toLowerCase());
+        	}
         }
+        
         return answer.toString();
     }
 
