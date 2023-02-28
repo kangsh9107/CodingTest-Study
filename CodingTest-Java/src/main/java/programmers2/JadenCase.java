@@ -2,6 +2,8 @@ package programmers2;
 
 public class JadenCase {
 
+	//프로그래머스 Level 2. JadenCase 문자열 만들기
+	//https://school.programmers.co.kr/learn/courses/30/lessons/12951
 	public static void main(String[] args) {
 		JadenCase jc = new JadenCase();
 		
