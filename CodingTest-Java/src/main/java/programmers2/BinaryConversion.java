@@ -2,7 +2,7 @@ package programmers2;
 
 public class BinaryConversion {
 
-	//프로그래머스 Level 2. 이진 변환 반복
+	//프로그래머스 Level 2. 이진 변환 반복하기
 	//https://school.programmers.co.kr/learn/courses/30/lessons/70129
 	public static void main(String[] args) {
 		BinaryConversion bc = new BinaryConversion();
