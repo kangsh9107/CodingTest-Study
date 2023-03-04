@@ -10,27 +10,16 @@ public class NextBiggerNumber {
 		int n1 = 78;
 		System.out.println(nbn.solution(n1));
 		
-//		int n2 = 15;
-//		System.out.println(nbn.solution(n2));
+		int n2 = 15;
+		System.out.println(nbn.solution(n2));
 	}
 	
     public int solution(int n) {
-        int cntOne = 0;
-        for(int i=0; i<Integer.toBinaryString(n).length(); i++) {
-        	if(Integer.toBinaryString(n).substring(i, i+1).equals("1")) cntOne++;
-        }
-        
-        int cnt = 0;
-        while(true) {
-        	cnt = 0;
-        	n++;
-        	for(int i=0; i<Integer.toBinaryString(n).length(); i++) {
-            	if(Integer.toBinaryString(n).substring(i, i+1).equals("1")) cnt++;
-        	}
-        	
-        	if(cntOne == cnt) break;
-        }
-        
+    	int cntOne = Integer.bitCount(n);
+    	while(true) {
+    		n++;
+    		if(cntOne == Integer.bitCount(n)) break;
+    	}
         return n;
     }
 
