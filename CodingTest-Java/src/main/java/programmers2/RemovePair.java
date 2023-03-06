@@ -17,22 +17,14 @@ public class RemovePair {
 	}
 	
     public int solution(String s) {
-        int answer = 1;
-        Stack<String> stack = new Stack<>();
+        Stack<Character> stack = new Stack<>();
         for(int i=0; i<s.length(); i++) {
-        	if(i == 0) {
-        		stack.push(s.substring(i, i+1));
-        	} else {
-        		if(stack.get(stack.size()-1).equals(s.substring(i, i+1))) {
-        			continue;
-        		} else {
-        			stack.push(s.substring(i, i+1));
-        		}
-        	}
+        	char ch = s.charAt(i);
+        	if( !stack.isEmpty() && stack.peek() == ch ) stack.pop();
+        	else stack.push(ch);
         }
-        if(stack.size() != 1) answer = 0;
         
-        return answer;
+        return stack.isEmpty() ? 1 : 0;
     }
 
 }
