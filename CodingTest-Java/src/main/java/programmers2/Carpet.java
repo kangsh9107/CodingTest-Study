@@ -21,11 +21,21 @@ public class Carpet {
 	}
 	
 	public int[] solution(int brown, int yellow) {
-		int[] answer = {};
-		
-		
-		
-		return answer;
+        int[] answer = new int[2];
+        int cnt = 0;
+        for(int i=1; i<=brown; i++) {
+            for(int j=1; j<=brown; j++) {
+                if( ((2 * (i + j)) - 4 == brown) && ((i - 2) * (j - 2) == yellow) ) {
+                	answer[0] = Math.max(i, j);
+                	answer[1] = Math.min(i, j);
+                	cnt++;
+                	break;
+                }
+            }
+            if(cnt > 0) break;
+        }
+        
+        return answer;
 	}
 
 }
