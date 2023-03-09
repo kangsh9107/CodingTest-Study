@@ -1,8 +1,5 @@
 package programmers1;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class DartGame {
 
 	//프로그래머스 Level 1. [1차] 다트 게임
@@ -12,16 +9,16 @@ public class DartGame {
 		
 //		String dartResult1 = "1S2D*3T";
 //		System.out.println(dg.solution(dartResult1));
-		
-		String dartResult2 = "1D2S#10S";
-		System.out.println(dg.solution(dartResult2));
+//		
+//		String dartResult2 = "1D2S#10S";
+//		System.out.println(dg.solution(dartResult2));
 //		
 //		String dartResult3 = "1D2S0T";
 //		System.out.println(dg.solution(dartResult3));
-//		
-//		String dartResult4 = "1S*2T*3S";
-//		System.out.println(dg.solution(dartResult4));
-//		
+		
+		String dartResult4 = "1S*2T*3S";
+		System.out.println(dg.solution(dartResult4));
+		
 //		String dartResult5 = "1D#2S*3S";
 //		System.out.println(dg.solution(dartResult5));
 //		
@@ -34,25 +31,54 @@ public class DartGame {
 	
 	public int solution(String dartResult) {
 		int answer = 0;
-		int index = 0;
-		String replaceResult = "";
 		
-		replaceResult = dartResult.replaceAll("[SDT*#]", ",");
-		String[] scoreResult = replaceResult.split(",");
+		int index = 0;
 		int[] score = new int[3];
-		for(int i=0; i<scoreResult.length; i++) {
-			if( !scoreResult[i].equals("") ) {
-				score[index] = Integer.parseInt(scoreResult[i]);
+		String[] tempScore = dartResult.split("[SDT*#]");
+		for(int i=0; i<tempScore.length; i++) {
+			if(tempScore[i].equals("")) {
+				continue;
+			} else {
+				score[index] = Integer.parseInt(tempScore[i]);
 				index++;
 			}
 		}
 		
 		index = 0;
-		replaceResult = dartResult.replaceAll("[0123456789#*]", ",");
-		String[] bonusResult = replaceResult.split(",");
-		String[] bonus = new String[3];
-		for(int i=0; i<bonusResult.length; i++) {
-			
+		String[] bonus = dartResult.split("[0123456789*#]");
+		for(int i=0; i<bonus.length; i++) {
+			if(bonus[i].equals("")) {
+				continue;
+			} else if(bonus[i].equals("S")) {
+				index++;
+			} else if(bonus[i].equals("D")) {
+				score[index] = score[index] * score[index];
+				index++;
+			} else if(bonus[i].equals("T")) {
+				score[index] = score[index] * score[index] * score[index];
+				index++;
+			}
+		}
+		
+		index = 0;
+		String[] star = dartResult.split("[0123456789]");
+		for(int i=0; i<star.length; i++) {
+			if(star[i].equals("")) {
+				continue;
+			} else if(star[i].length() == 1) {
+				index++;
+			} else if(star[i].length() == 2 && star[i].substring(1).equals("*")) {
+				score[index] *= 2;
+				if(index > 0) score[index - 1] *= 2;
+				index++;
+			} else if(star[i].length() == 2 && star[i].substring(1).equals("#")) {
+				score[index] *= (-1);
+				index++;
+			}
+		}
+		
+		for(int i=0; i<score.length; i++) {
+			answer += score[i];
 		}
 		
 		return answer;
