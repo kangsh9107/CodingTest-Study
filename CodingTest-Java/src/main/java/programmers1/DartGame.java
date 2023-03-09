@@ -34,14 +34,26 @@ public class DartGame {
 	
 	public int solution(String dartResult) {
 		int answer = 0;
-		String result = "";
+		int index = 0;
+		String replaceResult = "";
 		
-		result = dartResult.replaceAll("[SDT*#]", ",");
-		List<Integer> score = new ArrayList<>();
-		for(int i=0; i<result.length(); i++) {
-			if( !result.substring(i, i+1).equals(",") ) score.add(Integer.parseInt(result.substring(i, i+1)));
+		replaceResult = dartResult.replaceAll("[SDT*#]", ",");
+		String[] scoreResult = replaceResult.split(",");
+		int[] score = new int[3];
+		for(int i=0; i<scoreResult.length; i++) {
+			if( !scoreResult[i].equals("") ) {
+				score[index] = Integer.parseInt(scoreResult[i]);
+				index++;
+			}
 		}
-		System.out.println(score);
+		
+		index = 0;
+		replaceResult = dartResult.replaceAll("[0123456789#*]", ",");
+		String[] bonusResult = replaceResult.split(",");
+		String[] bonus = new String[3];
+		for(int i=0; i<bonusResult.length; i++) {
+			
+		}
 		
 		return answer;
 	}
