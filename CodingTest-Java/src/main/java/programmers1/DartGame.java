@@ -1,9 +1,7 @@
 package programmers1;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 public class DartGame {
 
@@ -36,27 +34,14 @@ public class DartGame {
 	
 	public int solution(String dartResult) {
 		int answer = 0;
+		String result = "";
 		
-		String[] splitDartResult = dartResult.split("");
-		Map<Integer, Integer> indexScore = new HashMap<>();
-		Map<Integer, String> indexBonusOption = new HashMap<>();
-		for(int i=0; i<splitDartResult.length; i++) {
-			try {
-				indexScore.put(i, Integer.parseInt(splitDartResult[i]));
-			} catch(Exception e) {
-				indexBonusOption.put(i, splitDartResult[i]);
-			}
-		}
-		System.out.println(indexScore);
-		
+		result = dartResult.replaceAll("[SDT*#]", ",");
 		List<Integer> score = new ArrayList<>();
-		for(int i=0; i<12; i++) {
-			try {
-				indexScore.get(i);
-			} catch(Exception e) {
-				
-			}
+		for(int i=0; i<result.length(); i++) {
+			if( !result.substring(i, i+1).equals(",") ) score.add(Integer.parseInt(result.substring(i, i+1)));
 		}
+		System.out.println(score);
 		
 		return answer;
 	}
