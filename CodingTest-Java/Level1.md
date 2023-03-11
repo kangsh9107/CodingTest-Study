@@ -56,7 +56,7 @@
 |49|JAVA|완전탐색|모의고사|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/42840)|60%|
 |50|JAVA|Summer/Winter Coding(~2018)|소수 만들기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12977)|60%|
 |51|JAVA|2019 KAKAO BLIND RECRUITMENT|실패율|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/42889)|59%|
-|52|JAVA|2018 KAKAO BLIND RECRUITMENT|[1차] 다트 게임|도전 하기|[바로가기]|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/17682)|58%|
+|52|JAVA|2018 KAKAO BLIND RECRUITMENT|[1차] 다트 게임|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/DartGame.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/17682)|58%|
 |53|JAVA|연습문제|과일 장수|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/135808)|57%|
 |54|JAVA|연습문제|명예의 전당 (1)|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/138477)|56%|
 |55|JAVA|2021 Dev-Matching|로또의 최고 순위와 최저 순위|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/77484)|55%|
@@ -69,7 +69,7 @@
 |62|JAVA|2019 카카오 개발자 겨울 인턴십|크레인 인형뽑기 게임|도전 하기|[바로가기]|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/64061)|49%|
 |63|JAVA|2021 KAKAO BLIND RECRUITMENT|신규 아이디 추천|도전 하기|[바로가기]|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/72410)|48%|
 |64|JAVA|연습문제|문자열 나누기|도전 하기|[바로가기]|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/140108)|47%|
-|65|JAVA|연습문제|카드 뭉치|도전 하기|[바로가기]|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/159994)|46%|
+|65|JAVA|연습문제|카드 뭉치|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/CardDeck.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/159994)|46%|
 |66|JAVA|2022 KAKAO TECH INTERNSHIP|성격 유형 검사하기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/118666)|43%|
 |67|JAVA|연습문제|햄버거 만들기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/133502)|42%|
 |68|JAVA|연습문제|둘만의 암호|도전 하기|[바로가기]|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/155652)|38%|

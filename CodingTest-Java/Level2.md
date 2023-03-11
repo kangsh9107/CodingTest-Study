@@ -14,3 +14,4 @@
 |07|JAVA|연습문제|다음 큰 숫자|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers2/NextBiggerNumber.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12911)|72%|
 |08|JAVA|연습문제|짝지어 제거하기|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers2/RemovePair.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12973)|69%|
 |09|JAVA|Summer/Winter Coding(~2018)|영어 끝말잇기|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers2/EnglishFollowUp.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12981)|69%|
+|10|JAVA|완전탐색|카펫|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers2/Carpet.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/42842)|69%|
