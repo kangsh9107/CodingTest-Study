@@ -25,27 +25,45 @@ public class CardDeck {
 	
 	public String solution(String[] cards1, String[] cards2, String[] goal) {
 		String answer = "Yes";
-		
-		int index = -1;
 		int cnt = 0;
-		for(int i=0; i<cards1.length; i++) {
-			for(int j=0; j<goal.length; j++) {
-				if(cards1[i].equals(goal[j]) && index <= j) {
-					index = j;
-				} else if(cards1[i].equals(goal[j]) && index > j) {
+		int index1 = -1;
+		int index2 = -1;
+		boolean[] check1 = new boolean[cards1.length];
+		boolean[] check2 = new boolean[cards2.length];
+		for(int i=0; i<goal.length; i++) {
+			for(int j=0; j<cards1.length; j++) {
+				if(goal[i].equals(cards1[j]) && index1 <= j) {
+					index1 = j;
+					check1[j] = true;
+				} else if(goal[i].equals(cards1[j])) {
 					answer = "No";
+					cnt++;
+					break;
 				}
 			}
+			for(int k=0; k<cards2.length; k++) {
+				if(goal[i].equals(cards2[k]) && index2 <= k) {
+					index2 = k;
+					check2[k] = true;
+				} else if(goal[i].equals(cards2[k])) {
+					answer = "No";
+					cnt++;
+					break;
+				}
+			}
+			if(cnt > 0) break;
 		}
 		
-		index = -1;
-		for(int i=0; i<cards2.length; i++) {
-			for(int j=0; j<goal.length; j++) {
-				if(cards2[i].equals(goal[j]) && index <= j) {
-					index = j;
-				} else if(cards2[i].equals(goal[j]) && index > j) {
-					answer = "No";
-				}
+		for(int i=1; i<check1.length; i++) {
+			if( !check1[i - 1] && check1[i] ) {
+				answer = "No";
+				break;
+			}
+		}
+		for(int i=1; i<check2.length; i++) {
+			if( !check2[i - 1] && check2[i] ) {
+				answer = "No";
+				break;
 			}
 		}
 		
