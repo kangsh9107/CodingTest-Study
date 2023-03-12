@@ -9,7 +9,7 @@
 |02|JAVA|연습문제|올바른 괄호|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers2/CorrectParentheses.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12909)|75%|
 |03|JAVA|연습문제|최솟값 만들기|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers2/MakeMin.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12941)|75%|
 |04|JAVA|월간 코드 챌린지 시즌1|이진 변환 반복하기|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers2/BinaryConversion.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/70129)|75%|
-|05|JAVA|연습문제|숫자의 표현|도전 하기|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12924)|73%|
+|05|JAVA|연습문제|숫자의 표현|도전 하기|[바로가기]()|[바로가기]|73%|
 |06|JAVA|연습문제|피보나치 수|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers2/Fibonacci.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12945)|72%|
 |07|JAVA|연습문제|다음 큰 숫자|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers2/NextBiggerNumber.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12911)|72%|
 |08|JAVA|연습문제|짝지어 제거하기|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers2/RemovePair.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12973)|69%|
