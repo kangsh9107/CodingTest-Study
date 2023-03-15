@@ -67,7 +67,7 @@
 |60|JAVA|연습문제|옹알이 (2)|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/133499)|50%|
 |61|JAVA|2020 카카오 인턴십|키패드 누르기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/67256)|50%|
 |62|JAVA|2019 카카오 개발자 겨울 인턴십|크레인 인형뽑기 게임|도전 하기|[바로가기]|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/64061)|49%|
-|63|JAVA|2021 KAKAO BLIND RECRUITMENT|신규 아이디 추천|도전 하기|[바로가기]|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/72410)|48%|
+|63|JAVA|2021 KAKAO BLIND RECRUITMENT|신규 아이디 추천|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/RecommendNewId.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/72410)|48%|
 |64|JAVA|연습문제|문자열 나누기|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/SplitString.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/140108)|47%|
 |65|JAVA|연습문제|카드 뭉치|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/CardDeck.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/159994)|46%|
 |66|JAVA|2022 KAKAO TECH INTERNSHIP|성격 유형 검사하기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/118666)|43%|
