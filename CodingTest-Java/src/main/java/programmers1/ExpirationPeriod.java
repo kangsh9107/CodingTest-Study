@@ -1,5 +1,8 @@
 package programmers1;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class ExpirationPeriod {
 
 	//프로그래머스 Level 1. 개인정보 수집 유효기간
@@ -19,7 +22,11 @@ public class ExpirationPeriod {
 	}
 	
 	public int[] solution(String today, String[] terms, String[] privacies) {
-		int[] answer = {};
+		int[] answer = new int[privacies.length];
+		Map<String, Integer> hm = new HashMap<>();
+		for(int i=0; i<terms.length; i++) {
+			
+		}
 		
 		
 		
