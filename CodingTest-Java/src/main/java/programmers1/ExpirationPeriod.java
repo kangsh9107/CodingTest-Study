@@ -15,17 +15,17 @@ public class ExpirationPeriod {
 		String[] privacies1 = {"2021.05.02 A", "2021.07.01 B", "2022.02.19 C", "2022.02.20 C"};
 		System.out.println(ep.solution(today1, terms1, privacies1));
 		
-//		String today2 = "2020.01.01";
-//		String[] terms2 = {"Z 3", "D 5"};
-//		String[] privacies2 = {"2019.01.01 D", "2019.11.15 Z", "2019.08.02 D", "2019.07.01 D", "2018.12.28 Z"};
-//		System.out.println(ep.solution(today2, terms2, privacies2));
+		String today2 = "2020.01.01";
+		String[] terms2 = {"Z 3", "D 5"};
+		String[] privacies2 = {"2019.01.01 D", "2019.11.15 Z", "2019.08.02 D", "2019.07.01 D", "2018.12.28 Z"};
+		System.out.println(ep.solution(today2, terms2, privacies2));
 	}
 	
 	public int[] solution(String today, String[] terms, String[] privacies) {
 		int[] answer = new int[privacies.length];
 		Map<String, Integer> hm = new HashMap<>();
 		for(int i=0; i<terms.length; i++) {
-			
+			hm.put(terms[i], 1);
 		}
 		
 		
