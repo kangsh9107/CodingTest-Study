@@ -30,6 +30,7 @@ public class ExpirationPeriod {
 		System.out.println(hm);
 		
 		String today2 = "2020.01.01";
+		String test = "2019.11.15 Z";
 		
 		return answer;
 	}
