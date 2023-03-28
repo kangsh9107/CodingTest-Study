@@ -1,6 +1,8 @@
 package programmers1;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class ExpirationPeriod {
@@ -21,16 +23,26 @@ public class ExpirationPeriod {
 //		System.out.println(ep.solution(today2, terms2, privacies2));
 	}
 	
-	public int[] solution(String today, String[] terms, String[] privacies) {
-		int[] answer = new int[privacies.length];
+	public List<Integer> solution(String today, String[] terms, String[] privacies) {
 		Map<String, Integer> hm = new HashMap<>();
 		for(int i=0; i<terms.length; i++) {
 			hm.put(terms[i].substring(0, 1), Integer.parseInt(terms[i].substring(2)));
 		}
-		System.out.println(hm);
 		
-		String today2 = "2020.01.01";
-		String test = "2019.11.15 Z";
+		int todayInt = Integer.parseInt(today.replaceAll("\\.", ""));
+		int[] privaciesInt = new int[privacies.length];
+		for(int i=0; i<privacies.length; i++) {
+			String[] privaciesTemp = privacies[i].split(" ");
+			int todayTemp = Integer.parseInt(privaciesTemp[0].replaceAll("\\.", ""));
+			String termsTemp = privaciesTemp[1];
+			
+			privaciesInt[i] = todayTemp + (hm.get(termsTemp) * 100) - 1;
+		}
+
+		List<Integer> answer = new ArrayList<>();
+		for(int i=0; i<privaciesInt.length; i++) {
+			if(privaciesInt[i] < todayInt) answer.add(i + 1);
+		}
 		
 		return answer;
 	}
