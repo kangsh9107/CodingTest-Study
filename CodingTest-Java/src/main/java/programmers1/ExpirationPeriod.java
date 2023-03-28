@@ -43,7 +43,8 @@ public class ExpirationPeriod {
 			sb.append(year);
 			if(month < 10) sb.append("0" + month);
 			else sb.append(month);
-			sb.append(day);
+			if(day < 10) sb.append("0" + day);
+			else sb.append(day);
 			
 			hm.put(terms[i].substring(0, 1), Integer.parseInt(sb.toString()));
 			sb.setLength(0);
