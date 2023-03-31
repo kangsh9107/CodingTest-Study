@@ -24,34 +24,25 @@ public class ExpirationPeriod {
 	}
 	
 	public List<Integer> solution(String today, String[] terms, String[] privacies) {
-		StringBuilder sb = new StringBuilder();
+		List<Integer> answer = new ArrayList<>();
+		int now = 0;
+		now += (Integer.parseInt(today.substring(0, 4)) * 12 * 28);
+		now += (Integer.parseInt(today.substring(5, 7)) * 28);
+		now += (Integer.parseInt(today.substring(8)));
 		Map<String, Integer> hm = new HashMap<>();
 		for(int i=0; i<terms.length; i++) {
-			int year = Integer.parseInt(today.replaceAll("\\.", "").substring(0, 4));
-			int month = Integer.parseInt(today.replaceAll("\\.", "").substring(4, 6));
-			String day = today.replaceAll("\\.", "").substring(6);
-			month += year * 12;
-			
-			String alphabet = terms[i].substring(0, 1);
-			int len = Integer.parseInt(terms[i].substring(2));
-			
-			month -= len;
-			year = month / 12;
-			month %= 12;
-			if(month == 0) month = 12;
-			
-			sb.append(year);
-			if(month < 10) sb.append("0" + month);
-			else sb.append(month);
-			sb.append(day);
-			hm.put(alphabet, Integer.parseInt(sb.toString()));
-			sb.setLength(0);
+			hm.put(terms[i].substring(0, 1), Integer.parseInt(terms[i].substring(2)));
 		}
 		
-		List<Integer> answer = new ArrayList<>();
+		int privacy = 0;
 		for(int i=0; i<privacies.length; i++) {
-			String[] check = privacies[i].split(" ");
-			if(Integer.parseInt(check[0].replaceAll("\\.", "")) <= hm.get(check[1])) answer.add(i + 1); 
+			privacy = 0;
+			privacy += (Integer.parseInt(privacies[i].substring(0, 4)) * 12 * 28);
+			privacy += (Integer.parseInt(privacies[i].substring(5, 7)) * 28);
+			privacy += (Integer.parseInt(privacies[i].substring(8, 10)));
+			privacy += (hm.get(privacies[i].substring(11)) * 28);
+			privacy--;
+			if(privacy < now) answer.add(i + 1);
 		}
 		
 		return answer;
