@@ -74,6 +74,6 @@
 |67|JAVA|연습문제|햄버거 만들기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/133502)|42%|
 |68|JAVA|연습문제|둘만의 암호|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/TwoPassword.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/155652)|38%|
 |69|JAVA|연습문제|대충 만든 자판|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/Keyboard.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/160586)|34%|
-|70|JAVA|2023 KAKAO BLIND RECRUITMENT|개인정보 수집 유효기간|도전 하기|[바로가기]|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/150370)|34%|
+|70|JAVA|2023 KAKAO BLIND RECRUITMENT|개인정보 수집 유효기간|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/ExpirationPeriod.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/150370)|34%|
 |71|JAVA|2022 KAKAO BLIND RECRUITMENT|신고 결과 받기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/92334)|34%|
 |72|JAVA|연습문제|바탕화면 정리|도전 하기|[바로가기]|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/161990)|32%|
