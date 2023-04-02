@@ -43,7 +43,6 @@ public class StrangeArray {
 			}
 		});
 		
-		Map<Integer, Integer> sorted = new LinkedHashMap<>();
 		for(Iterator<Map.Entry<Integer, Integer>> iter = list.iterator(); iter.hasNext();) {
 			Map.Entry<Integer, Integer> entry = iter.next();
 			answer.add(entry.getKey());
