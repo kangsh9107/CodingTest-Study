@@ -1,5 +1,8 @@
 package programmers0;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class FiniteDecimal {
 
 	//프로그래머스 Level 0. 유한소수 판별하기
@@ -21,8 +24,30 @@ public class FiniteDecimal {
 	}
 	
     public int solution(int a, int b) {
-        int answer = 0;
+        int answer = 1;
+        int child = 1;
+        int parent = 1;
+        List<Integer> childList = new ArrayList<>();
+        List<Integer> parentList = new ArrayList<>();
+        for(int i=2; i<=a; i++) {
+        	if(a % i == 0) childList.add(i);
+        }
+        for(int i=2; i<=b; i++) {
+        	if(b % i == 0) parentList.add(i);
+        }
         
+        for(int i=0; i<childList.size(); i++) {
+        	for(int j=0; j<parentList.size(); j++) {
+        		if(childList.get(i) != parentList.get(j)) child *= i;
+        	}
+        }
+        for(int i=0; i<parentList.size(); i++) {
+        	for(int j=0; j<childList.size(); j++) {
+        		if(parentList.get(i) != childList.get(j)) parent *= i;
+        	}
+        }
+        System.out.println(parent);
+        System.out.println(child);
         
         
         return answer;
