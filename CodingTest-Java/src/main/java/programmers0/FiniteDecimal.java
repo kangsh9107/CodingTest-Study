@@ -35,15 +35,17 @@ public class FiniteDecimal {
         for(int i=2; i<=b; i++) {
         	if(b % i == 0) parentList.add(i);
         }
+        System.out.println(childList);
+        System.out.println(parentList);
         
         for(int i=0; i<childList.size(); i++) {
         	for(int j=0; j<parentList.size(); j++) {
-        		if(childList.get(i) != parentList.get(j)) child *= i;
+        		if(childList.get(i) != parentList.get(j)) child *= childList.get(i);
         	}
         }
         for(int i=0; i<parentList.size(); i++) {
         	for(int j=0; j<childList.size(); j++) {
-        		if(parentList.get(i) != childList.get(j)) parent *= i;
+        		if(parentList.get(i) != childList.get(j)) parent *= parentList.get(i);
         	}
         }
         System.out.println(parent);
