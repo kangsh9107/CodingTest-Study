@@ -1,5 +1,8 @@
 package programmers1;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class RunningRace {
 
 	//프로그래머스 Level 1. 달리기 경주
@@ -12,8 +15,29 @@ public class RunningRace {
 		System.out.println(rr.solution(players1, callings1));
 	}
 	
+	//시간초과
+//	public String[] solution(String[] players, String[] callings) {
+//		String temp = "";
+//		for(int i=0; i<callings.length; i++) {
+//			for(int j=0; j<players.length; j++) {
+//				if(callings[i].equals(players[j])) {
+//					temp = players[j - 1];
+//					players[j - 1] = callings[i];
+//					players[j] = temp;
+//				}
+//			}
+//		}
+//		
+//		return players;
+//	}
+	
 	public String[] solution(String[] players, String[] callings) {
-		String[] answer = {};
+		String[] answer = new String[players.length];
+		Map<String, Integer> rank = new HashMap<>();
+		for(int i=0; i<players.length; i++) {
+			rank.put(players[i], i + 1);
+		}
+		System.out.println(rank);
 		
 		
 		
