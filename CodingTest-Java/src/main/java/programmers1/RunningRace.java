@@ -37,8 +37,6 @@ public class RunningRace {
 		for(int i=0; i<players.length; i++) {
 			rank.put(players[i], i + 1);
 		}
-		System.out.println(rank);
-		
 		
 		
 		return answer;
