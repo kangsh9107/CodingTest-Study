@@ -37,6 +37,12 @@ public class RunningRace {
 		for(int i=0; i<players.length; i++) {
 			rank.put(players[i], i + 1);
 		}
+		Map<Integer, String> rank2 = new HashMap<>();
+		for(int i=0; i<players.length; i++) {
+			rank2.put(i + 1, players[i]);
+		}
+		System.out.println(rank);
+		System.out.println(rank2);
 		
 		
 		return answer;
