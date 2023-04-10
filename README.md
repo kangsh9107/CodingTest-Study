@@ -10,9 +10,7 @@
 
 [![Solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=lushhush)](https://solved.ac/lushhush)
 
-
-
-Last Update 2023-04-11
+## Last Update 2023-04-11
 
 1. 2022년 10월부터 코딩 테스트 문제를 풀기 시작했습니다.
 2. "이것이 코딩 테스트다" 책을 구입했습니다.
