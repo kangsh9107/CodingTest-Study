@@ -92,7 +92,7 @@
 |85|JAVA|코딩테스트 입문|유한소수 판별하기|도전 하기|[바로가기]|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120878)|70%|
 |86|JAVA|코딩테스트 입문|등수 매기기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120882)|70%|
 |87|JAVA|코딩테스트 입문|문자열 밀기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120921)|70%|
-|88|JAVA|코딩테스트 입문|특이한 정렬|도전 하기|[바로가기]|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120880)|69%|
+|88|JAVA|코딩테스트 입문|특이한 정렬|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/StrangeArray.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120880)|69%|
 |89|JAVA|코딩테스트 입문|저주의 숫자 3|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120871)|69%|
 |90|JAVA|코딩테스트 입문|다항식 더하기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120863)|67%|
 |91|JAVA|코딩테스트 입문|최빈값 구하기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120812)|64%|

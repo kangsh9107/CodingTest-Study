@@ -5,6 +5,8 @@ import java.util.Set;
 
 public class Poketmon {
 
+	//프로그래머스 Level 1. 폰켓몬
+	//https://school.programmers.co.kr/learn/courses/30/lessons/1845
 	public static void main(String[] args) {
 		Poketmon pm = new Poketmon();
 		

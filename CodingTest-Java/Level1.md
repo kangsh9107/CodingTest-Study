@@ -1,9 +1,13 @@
 # 프로그래머스
 
-## Level 1. 정답률 높은 순서
+## Level 1. 오래된 순
 
 | NO | 언어 | 문제 유형 | 문제 | 풀이 여부 | 풀이 링크 | 문제 링크 | 정답률 |
 |:--: |:--: |:--: |:--: |:--: |:--: |:--: |:--: |
+|46|JAVA|해시|폰켓몬|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/Poketmon.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/1845)|62%|
+|44|JAVA|연습문제|2016년|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/TwoThousandSixteen.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12901)|63%|
+|20|JAVA|연습문제|가운데 글자 가져오기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12903)|83%|
+
 |00|JAVA|연습문제|평균 구하기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12944)|87%|
 |01|JAVA|연습문제|짝수와 홀수|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12937)|87%|
 |02|JAVA|연습문제|약수의 합|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12928)|87%|
@@ -24,7 +28,7 @@
 |17|JAVA|월간 코드 챌린지 시즌2|음양 더하기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/76501)|83%|
 |18|JAVA|연습문제|제일 작은 수 제거하기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12935)|83%|
 |19|JAVA|월간 코드 챌린지 시즌3|없는 숫자 더하기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/86051)|83%|
-|20|JAVA|연습문제|가운데 글자 가져오기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12903)|82%|
+
 |21|JAVA|연습문제|수박수박수박수박수박수?|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12922)|82%|
 |22|JAVA|월간 코드 챌린지 시즌1|내적|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/70128)|82%|
 |23|JAVA|연습문제|문자열 내림차순으로 배치하기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12917)|80%|
@@ -48,9 +52,9 @@
 |41|JAVA|월간 코드 챌린지 시즌1|두 개 뽑아서 더하기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/68644)|66%|
 |42|JAVA|연습문제|크기가 작은 부분 문자열|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/147355)|64%|
 |43|JAVA|연습문제|콜라 문제|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/132267)|63%|
-|44|JAVA|연습문제|2016년|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12901)|63%|
+
 |45|JAVA|연습문제|푸드 파이트 대회|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/134240)|62%|
-|46|JAVA|해시|폰켓몬|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/1845)|62%|
+
 |47|JAVA|연습문제|가장 가까운 같은 글자|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/142086)|61%|
 |48|JAVA|연습문제|소수 찾기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12921)|60%|
 |49|JAVA|완전탐색|모의고사|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/42840)|60%|
@@ -59,6 +63,8 @@
 |52|JAVA|2018 KAKAO BLIND RECRUITMENT|[1차] 다트 게임|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/DartGame.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/17682)|58%|
 |53|JAVA|연습문제|과일 장수|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/135808)|57%|
 |54|JAVA|연습문제|명예의 전당 (1)|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/138477)|56%|
+|55|JAVA|연습문제|추억 점수|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/MemoryScore.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/176963)|56%|
+
 |55|JAVA|2021 Dev-Matching|로또의 최고 순위와 최저 순위|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/77484)|55%|
 |56|JAVA|탐욕법(Greedy)|체육복|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/42862)|54%|
 |57|JAVA|해시|완주하지 못한 선수|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/42576)|53%|
