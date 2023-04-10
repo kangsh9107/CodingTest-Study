@@ -34,16 +34,16 @@ public class RunningRace {
 	public String[] solution(String[] players, String[] callings) {
 		String[] answer = new String[players.length];
 		Map<String, Integer> rank = new HashMap<>();
+		int index = 0;
 		for(int i=0; i<players.length; i++) {
 			rank.put(players[i], i + 1);
 		}
-		Map<Integer, String> rank2 = new HashMap<>();
-		for(int i=0; i<players.length; i++) {
-			rank2.put(i + 1, players[i]);
-		}
-		System.out.println(rank);
-		System.out.println(rank2);
 		
+		for(int i=0; i<callings.length; i++) {
+			index = rank.get(callings[i]) - 1;
+			rank.put(callings[i], index);
+			rank.put(players[index], rank.get(players[index]) + 1);
+		}
 		
 		return answer;
 	}
