@@ -2,6 +2,8 @@ package programmers1;
 
 public class StrangeString {
 
+	//프로그래머스 Level 1. 이상한 문자 만들기
+	//https://school.programmers.co.kr/learn/courses/30/lessons/12930
 	public static void main(String[] args) {
 		StrangeString ss = new StrangeString();
 		
@@ -14,21 +16,25 @@ public class StrangeString {
 	
 	String solution(String s) {
 		StringBuilder sb = new StringBuilder();
-        String[] temp1 = s.split(" ");
-        String[] temp2 = null;
+        String[] temp = s.split("");
+        int index = 0;
         
-        for(int i=0; i<temp1.length; i++) {
-            temp2 = temp1[i].split("");
-            
-            for(int j=0; j<temp2.length; j++) {
-        		if(j%2 == 0) sb.append(temp2[j].toUpperCase());
-        		else         sb.append(temp2[j].toLowerCase());
+        for(int i=0; i<temp.length; i++) {
+            if(temp[i].equals(" ")) {
+            	sb.append(" ");
+            	index = 0;
+            } else {
+            	if(index%2 == 0) {
+            		sb.append(temp[i].toUpperCase());
+            		index++;
+            	} else {
+            		sb.append(temp[i].toLowerCase());
+            		index++;
+            	}
             }
-            
-        	sb.append(" ");
         }
 		
-		return sb.toString().substring(0, sb.length()-1);
+		return sb.toString();
 	}
 
 }
