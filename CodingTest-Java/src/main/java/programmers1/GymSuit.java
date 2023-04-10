@@ -1,10 +1,5 @@
 package programmers1;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
-
 public class GymSuit {
 
 	//프로그래머스 Level 1. 체육복

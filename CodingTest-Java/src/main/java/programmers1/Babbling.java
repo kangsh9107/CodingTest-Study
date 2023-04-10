@@ -1,6 +1,9 @@
 package programmers1;
 
 public class Babbling {
+	
+	//프로그래머스 Level 1. 옹알이 (2)
+	//https://school.programmers.co.kr/learn/courses/30/lessons/133499
 	public static void main(String[] args) {
 //		String[] babbling = {"aya", "yee", "u", "maa"};
 		String[] babbling = {"ayaye", "uuu", "yeye", "yemawoo", "ayaayaa"};

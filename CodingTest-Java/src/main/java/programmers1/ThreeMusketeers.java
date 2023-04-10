@@ -1,6 +1,10 @@
 package programmers1;
 
 public class ThreeMusketeers {
+	
+	//프로그래머스 Level 1. 삼총사
+	//https://school.programmers.co.kr/learn/courses/30/lessons/131705
+	
 	int answer = 0;
 
 	public static void main(String[] args) {

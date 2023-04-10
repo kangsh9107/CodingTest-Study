@@ -5,6 +5,8 @@ import java.util.List;
 
 public class NumberFriend {
 
+	//프로그래머스 Level 1. 숫자 짝꿍
+	//https://school.programmers.co.kr/learn/courses/30/lessons/131128
 	public static void main(String[] args) {
 		NumberFriend nf = new NumberFriend();
 		

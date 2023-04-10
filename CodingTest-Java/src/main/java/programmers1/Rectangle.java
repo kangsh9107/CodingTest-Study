@@ -6,6 +6,8 @@ import java.util.List;
 
 public class Rectangle {
 
+	//프로그래머스 Level 1. 최소직사각형
+	//https://school.programmers.co.kr/learn/courses/30/lessons/86491
 	public static void main(String[] args) {
 		Rectangle r = new Rectangle();
 		

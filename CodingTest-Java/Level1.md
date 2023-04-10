@@ -32,57 +32,52 @@
 |25|JAVA|연습문제|평균 구하기|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/Average.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12944)|87%|
 |26|JAVA|연습문제|하샤드 수|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/Harshad.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12947)|86%|
 |27|JAVA|연습문제|핸드폰 번호 가리기|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/HidePhoneNumber.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12948)|84%|
-|28|JAVA|연습문제|행렬의 덧셈|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12950)|78%|
-
-
-
-
-
-
-|07|JAVA|연습문제|x만큼 간격이 있는 n개의 숫자|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12954)|86%|
-|10|JAVA|월간 코드 챌린지 시즌3|나머지가 1이 되는 수 찾기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/87389)|86%|
-|17|JAVA|월간 코드 챌린지 시즌2|음양 더하기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/76501)|83%|
-|19|JAVA|월간 코드 챌린지 시즌3|없는 숫자 더하기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/86051)|83%|
-|22|JAVA|월간 코드 챌린지 시즌1|내적|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/70128)|82%|
-|24|JAVA|월간 코드 챌린지 시즌2|약수의 개수와 덧셈|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/77884)|80%|
-|26|JAVA|위클리 챌린지|부족한 금액 계산하기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/82612)|79%|
-
-|28|JAVA|연습문제|직사각형 별찍기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12969)|77%|
-
-|31|JAVA|월간 코드 챌린지 시즌1|3진법 뒤집기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/68935)|73%|
-|33|JAVA|Summer/Winter Coding(~2018)|예산|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12982)|73%|
-|35|JAVA|연습문제|삼총사|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/131705)|70%|
-|36|JAVA|연습문제|최소직사각형|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/86491)|70%|
-|37|JAVA|2018 KAKAO BLIND RECRUITMENT|[1차] 비밀지도|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/17681)|69%|
-|39|JAVA|2021 카카오 채용연계형 인턴십|숫자 문자열과 영단어|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/81301)|68%|
-|40|JAVA|정렬|K번째수|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/42748)|68%|
-|41|JAVA|월간 코드 챌린지 시즌1|두 개 뽑아서 더하기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/68644)|66%|
-|42|JAVA|연습문제|크기가 작은 부분 문자열|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/147355)|64%|
-|43|JAVA|연습문제|콜라 문제|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/132267)|63%|
-|45|JAVA|연습문제|푸드 파이트 대회|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/134240)|62%|
-|47|JAVA|연습문제|가장 가까운 같은 글자|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/142086)|61%|
-|49|JAVA|완전탐색|모의고사|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/42840)|60%|
-|50|JAVA|Summer/Winter Coding(~2018)|소수 만들기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12977)|60%|
-|51|JAVA|2019 KAKAO BLIND RECRUITMENT|실패율|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/42889)|59%|
-|52|JAVA|2018 KAKAO BLIND RECRUITMENT|[1차] 다트 게임|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/DartGame.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/17682)|58%|
-|53|JAVA|연습문제|과일 장수|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/135808)|57%|
-|54|JAVA|연습문제|명예의 전당 (1)|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/138477)|56%|
-|55|JAVA|연습문제|추억 점수|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/MemoryScore.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/176963)|56%|
-|55|JAVA|2021 Dev-Matching|로또의 최고 순위와 최저 순위|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/77484)|55%|
-|56|JAVA|탐욕법(Greedy)|체육복|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/42862)|54%|
-|57|JAVA|해시|완주하지 못한 선수|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/42576)|53%|
-|58|JAVA|연습문제|숫자 짝꿍|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/131128)|53%|
-|59|JAVA|연습문제|기사단원의 무기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/136798)|52%|
-|60|JAVA|연습문제|옹알이 (2)|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/133499)|50%|
-|61|JAVA|2020 카카오 인턴십|키패드 누르기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/67256)|50%|
-|62|JAVA|2019 카카오 개발자 겨울 인턴십|크레인 인형뽑기 게임|도전 하기|[바로가기]|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/64061)|49%|
-|63|JAVA|2021 KAKAO BLIND RECRUITMENT|신규 아이디 추천|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/RecommendNewId.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/72410)|48%|
-|64|JAVA|연습문제|문자열 나누기|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/SplitString.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/140108)|47%|
-|65|JAVA|연습문제|카드 뭉치|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/CardDeck.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/159994)|46%|
-|66|JAVA|2022 KAKAO TECH INTERNSHIP|성격 유형 검사하기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/118666)|43%|
-|67|JAVA|연습문제|햄버거 만들기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/133502)|42%|
-|68|JAVA|연습문제|둘만의 암호|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/TwoPassword.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/155652)|38%|
-|69|JAVA|연습문제|대충 만든 자판|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/Keyboard.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/160586)|34%|
-|70|JAVA|2023 KAKAO BLIND RECRUITMENT|개인정보 수집 유효기간|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/ExpirationPeriod.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/150370)|34%|
-|71|JAVA|2022 KAKAO BLIND RECRUITMENT|신고 결과 받기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/92334)|34%|
-|72|JAVA|연습문제|바탕화면 정리|도전 하기|[바로가기]|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/161990)|32%|
+|28|JAVA|연습문제|행렬의 덧셈|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/SumMatrix.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12950)|78%|
+|29|JAVA|연습문제|x만큼 간격이 있는 n개의 숫자|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/OffsetNumber.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12954)|86%|
+|30|JAVA|연습문제|직사각형 별찍기|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/PrintSqaureStar.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12969)|77%|
+|31|JAVA|Summer/Winter Coding(~2018)|소수 만들기|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/MakePrimeNumber.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12977)|60%|
+|32|JAVA|Summer/Winter Coding(~2018)|예산|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/Budget.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12982)|73%|
+|33|JAVA|2018 KAKAO BLIND RECRUITMENT|[1차] 비밀지도|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/SecretMap.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/17681)|69%|
+|34|JAVA|2018 KAKAO BLIND RECRUITMENT|[1차] 다트 게임|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/DartGame.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/17682)|58%|
+|35|JAVA|해시|완주하지 못한 선수|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/NotFinishAthletes.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/42576)|53%|
+|36|JAVA|정렬|K번째수|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/NumberK.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/42748)|68%|
+|37|JAVA|완전탐색|모의고사|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/MockExam.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/42840)|61%|
+|38|JAVA|탐욕법(Greedy)|체육복|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/GymSuit.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/42862)|54%|
+|39|JAVA|2019 KAKAO BLIND RECRUITMENT|실패율|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/FailureRate.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/42889)|59%|
+|40|JAVA|2019 카카오 개발자 겨울 인턴십|크레인 인형뽑기 게임|도전 하기|[바로가기]|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/64061)|50%|
+|41|JAVA|2020 카카오 인턴십|키패드 누르기|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/KeyPad.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/67256)|50%|
+|42|JAVA|월간 코드 챌린지 시즌1|두 개 뽑아서 더하기|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/TwoPlus.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/68644)|67%|
+|43|JAVA|월간 코드 챌린지 시즌1|3진법 뒤집기|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/Three.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/68935)|74%|
+|44|JAVA|월간 코드 챌린지 시즌1|내적|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/ScalarProduct.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/70128)|82%|
+|45|JAVA|2021 KAKAO BLIND RECRUITMENT|신규 아이디 추천|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/RecommendNewId.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/72410)|48%|
+|46|JAVA|월간 코드 챌린지 시즌2|음양 더하기|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/PlusMinus.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/76501)|84%|
+|47|JAVA|2021 Dev-Matching|로또의 최고 순위와 최저 순위|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/Lotto.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/77484)|56%|
+|48|JAVA|월간 코드 챌린지 시즌2|약수의 개수와 덧셈|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/SumDivisor.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/77884)|80%|
+|49|JAVA|2021 카카오 채용연계형 인턴십|숫자 문자열과 영단어|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/NumberAndString.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/81301)|68%|
+|50|JAVA|위클리 챌린지|부족한 금액 계산하기|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/LackOfMoney.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/82612)|79%|
+|51|JAVA|월간 코드 챌린지 시즌3|없는 숫자 더하기|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/SumMissingNumber.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/86051)|83%|
+|52|JAVA|연습문제|최소직사각형|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/Rectangle.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/86491)|70%|
+|53|JAVA|월간 코드 챌린지 시즌3|나머지가 1이 되는 수 찾기|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/FindOne.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/87389)|86%|
+|54|JAVA|2022 KAKAO BLIND RECRUITMENT|신고 결과 받기|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/Report.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/92334)|34%|
+|55|JAVA|2022 KAKAO TECH INTERNSHIP|성격 유형 검사하기|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/Mbti.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/118666)|45%|
+|56|JAVA|연습문제|숫자 짝꿍|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/NumberFriend.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/131128)|54%|
+|57|JAVA|연습문제|삼총사|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/ThreeMusketeers.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/131705)|71%|
+|58|JAVA|연습문제|콜라 문제|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/Cola.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/132267)|65%|
+|59|JAVA|연습문제|옹알이 (2)|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/Babbling.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/133499)|52%|
+|60|JAVA|연습문제|햄버거 만들기|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/MakeHamberger.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/133502)|44%|
+|61|JAVA|연습문제|푸드 파이트 대회|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/FoodFightCompetition.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/134240)|64%|
+|62|JAVA|연습문제|과일 장수|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/AppleSalesMan.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/135808)|59%|
+|63|JAVA|연습문제|기사단원의 무기|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/Sword.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/136798)|55%|
+|64|JAVA|연습문제|명예의 전당 (1)|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/HallOfFame.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/138477)|59%|
+|65|JAVA|연습문제|문자열 나누기|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/SplitString.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/140108)|49%|
+|66|JAVA|연습문제|가장 가까운 같은 글자|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/NearestIdenticalLetter.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/142086)|63%|
+|67|JAVA|연습문제|크기가 작은 부분 문자열|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/SmallSubstring.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/147355)|67%|
+|68|JAVA|2023 KAKAO BLIND RECRUITMENT|개인정보 수집 유효기간|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/ExpirationPeriod.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/150370)|37%|
+|69|JAVA|연습문제|둘만의 암호|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/TwoPassword.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/155652)|44%|
+|70|JAVA|연습문제|카드 뭉치|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/CardDeck.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/159994)|55%|
+|71|JAVA|연습문제|대충 만든 자판|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/Keyboard.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/160586)|43%|
+|72|JAVA|연습문제|덧칠하기|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/TopCoat.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/161989)|55%|
+|73|JAVA|연습문제|바탕화면 정리|도전 하기|[바로가기]|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/161990)|34%|
+|74|JAVA|연습문제|공원 산책|도전 하기|[바로가기]|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/172928)|30%|
+|75|JAVA|연습문제|추억 점수|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/MemoryScore.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/176963)|56%|
+|76|JAVA|연습문제|달리기 경주|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/RunningRace.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/178871)|38%|

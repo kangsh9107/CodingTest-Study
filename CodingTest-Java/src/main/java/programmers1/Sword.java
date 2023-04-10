@@ -2,6 +2,8 @@ package programmers1;
 
 public class Sword {
 
+	//프로그래머스 Level 1. 기사단원의 무기
+	//https://school.programmers.co.kr/learn/courses/30/lessons/136798
 	public static void main(String[] args) {
 		Sword s = new Sword();
 		int number = 5;

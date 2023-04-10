@@ -2,6 +2,8 @@ package programmers1;
 
 public class Three {
 
+	//프로그래머스 Level 1. 3진법 뒤집기
+	//https://school.programmers.co.kr/learn/courses/30/lessons/68935
 	public static void main(String[] args) {
 		Three t = new Three();
 		

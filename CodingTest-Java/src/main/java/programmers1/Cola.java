@@ -2,6 +2,8 @@ package programmers1;
 
 public class Cola {
 	
+	//프로그래머스 Level 1. 콜라 문제
+	//https://school.programmers.co.kr/learn/courses/30/lessons/132267
 	public static void main(String[] args) {
 		int answer = 0;
 		int a = 3;

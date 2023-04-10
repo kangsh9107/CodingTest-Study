@@ -9,6 +9,8 @@ import java.util.StringTokenizer;
 
 public class Report {
 	
+	//프로그래머스 Level 1. 신고 결과 받기
+	//https://school.programmers.co.kr/learn/courses/30/lessons/92334
 	public static void main(String[] args) {
 		String[] id_list = {"muzi", "frodo", "apeach", "neo"};
 		String[] report = {"muzi frodo", "apeach frodo", "frodo neo", "muzi neo", "apeach muzi"};

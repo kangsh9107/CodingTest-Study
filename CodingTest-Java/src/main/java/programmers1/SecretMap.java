@@ -2,6 +2,8 @@ package programmers1;
 
 public class SecretMap {
 	
+	//프로그래머스 Level 1. [1차] 비밀지도
+	//https://school.programmers.co.kr/learn/courses/30/lessons/17681
 	public static void main(String[] args) {
 		SecretMap sm = new SecretMap();
 		
