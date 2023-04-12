@@ -50,6 +50,9 @@ public class FiniteDecimal {
         }
         System.out.println(parent);
         System.out.println(child);
+        for(int i=0; i<childList.size(); i++) {
+        	System.out.println(childList.get(i));
+        }
         
         
         return answer;
