@@ -37,6 +37,8 @@ public class LongJump {
 				sum /= k;
 			}
 			answer += sum;
+			
+			//for문으로만 조합을 구현하는 방법?
 		}
 		
 		return answer;
