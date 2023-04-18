@@ -14,36 +14,48 @@ public class LongJump {
 //		System.out.println(lj.solution(n2));
 	}
 	
-	public long solution(int n) {
-		long answer = 1; //1칸만 뛰는 경우
-		
-		int one = n;     //1칸 뛰는 최대 횟수
-		int two = n / 2; //2칸 뛰는 최대 횟수
-		int tot = 0;     //전체 뛰는 횟수
-		int sum = 1;     //조합 계산용
-		for(int i=1; i<=two; i++) {
-			sum = 1;
-			one = n - (2 * i);
-			tot = one + i;
-			
-			//전체 뛰는 횟수에서 2칸을 언제 뛸지 배치하는 경우의 수를 answer에 더한다.
-			//예를 들어 1칸 2칸 2칸, 2칸 1칸 2칸, 2칸 2칸 1칸 처럼 배치하는 경우의 수다.
-			//이때 중복을 허용하지 않는다. (1칸 2칸a 2칸b는 1칸 2칸b 2칸a와 같다.)
-			//즉, 전체 뛰는 횟수에서 2칸 뛰는 횟수를 조합으로 뽑는다.
-			//이때 2칸 뛰는 횟수가 변할 수 있으므로 for문을 사용한다.
-			
-			for(int j=tot; j>tot-i; j--) {
-				sum *= j;
-				System.out.println(sum);
-			}
-			for(int k=1; k<=i; k++) {
-				sum /= k;
-			}
-			answer += sum;
-			break;
+	public int solution(int n) {
+		/*
+		 * n = 1
+		 * 1
+		 * 
+		 * n = 2
+		 * 1 1
+		 * 2
+		 * 
+		 * n = 3
+		 * 1 1 1
+		 * 1 2
+		 * 2 1
+		 * 
+		 * n = 4
+		 * 1 1 1 1
+		 * 1 1 2
+		 * 1 2 1
+		 * 2 1 1
+		 * 2 2
+		 * 
+		 * n = 5
+		 * 1 1 1 1 1
+		 * 1 1 1 2
+		 * 1 1 2 1
+		 * 1 2 1 1
+		 * 2 1 1 1
+		 * 1 2 2
+		 * 2 1 2
+		 * 2 2 1
+		 * 
+		 * 1, 2, 3, 5, 8, ... 피보나치 수열의 형태를 띈다.
+		 * 점화식으로 나타내면 i번째 = i-1번째 + i-2번째
+		 */
+		int[] answer = new int[2001]; //n이 2000이하.
+		answer[1] = 1;                //n칸을 갈때 계산을 편하게 하기 위해 0은 그냥 무시.
+		answer[2] = 2;
+		for(int i=3; i<answer.length; i++) {
+			answer[i] = (answer[i - 1] + answer[i - 2]) % 1234567; //문제조건.
 		}
 		
-		return answer % 1234567;
+		return answer[n];
 	}
 
 }
