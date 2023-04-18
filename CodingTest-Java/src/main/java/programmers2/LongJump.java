@@ -34,11 +34,13 @@ public class LongJump {
 			
 			for(int j=tot; j>tot-i; j--) {
 				sum *= j;
+				System.out.println(sum);
 			}
 			for(int k=1; k<=i; k++) {
 				sum /= k;
 			}
 			answer += sum;
+			break;
 		}
 		
 		return answer % 1234567;
