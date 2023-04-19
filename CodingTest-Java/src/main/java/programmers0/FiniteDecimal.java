@@ -1,8 +1,5 @@
 package programmers0;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class FiniteDecimal {
 
 	//프로그래머스 Level 0. 유한소수 판별하기
@@ -24,38 +21,26 @@ public class FiniteDecimal {
 	}
 	
     public int solution(int a, int b) {
-        int answer = 1;
-        int child = 1;
-        int parent = 1;
-        List<Integer> childList = new ArrayList<>();
-        List<Integer> parentList = new ArrayList<>();
-        for(int i=2; i<=a; i++) {
-        	if(a % i == 0) childList.add(i);
-        }
-        for(int i=2; i<=b; i++) {
-        	if(b % i == 0) parentList.add(i);
-        }
-        System.out.println(childList);
-        System.out.println(parentList);
+        int d = b / gcd(a, b);
         
-        for(int i=0; i<childList.size(); i++) {
-        	for(int j=0; j<parentList.size(); j++) {
-        		if(childList.get(i) != parentList.get(j)) child *= childList.get(i);
-        	}
-        }
-        for(int i=0; i<parentList.size(); i++) {
-        	for(int j=0; j<childList.size(); j++) {
-        		if(parentList.get(i) != childList.get(j)) parent *= parentList.get(i);
-        	}
-        }
-        System.out.println(parent);
-        System.out.println(child);
-        for(int i=0; i<childList.size(); i++) {
-        	System.out.println(childList.get(i));
+        //분모의 소인수가 2, 5만 있어야 한다.
+        //2와 5로 계속 나눠서 1이되면 소인수가 2, 5만 있는 거다.
+        while(d != 1) {
+        	if(d % 2 == 0) d /= 2;
+        	else if(d % 5 == 0) d /=5;
+        	else return 2;
         }
         
-        
-        return answer;
+        return 1;
     }
+    
+    public static int gcd(int a, int b) {
+    	if(b == 0) return a;
+    	return gcd(b, a % b);
+    }
+    
+//    public static int lcm(int a, int b) {
+//    	return a * b / gcd(a, b);
+//    }
 
 }
