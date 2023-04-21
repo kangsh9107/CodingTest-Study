@@ -9,12 +9,18 @@ public class SafeZone {
 		
 		int[][] board1 = {{0, 0, 0, 0, 0}, {0, 0, 0, 0, 0}, {0, 0, 0, 0, 0}, {0, 0, 1, 0, 0}, {0, 0, 0, 0, 0}};
 		System.out.println(sz.solution(board1));
+		
+//		int[][] board2 = {{0, 0, 0, 0, 0}, {0, 0, 0, 0, 0}, {0, 0, 0, 0, 0}, {0, 0, 1, 1, 0}, {0, 0, 0, 0, 0}};
+//		System.out.println(sz.solution(board2));
+//		
+//		int[][] board3 = {{1, 1, 1, 1, 1, 1}, {1, 1, 1, 1, 1, 1}, {1, 1, 1, 1, 1, 1}, {1, 1, 1, 1, 1, 1}, {1, 1, 1, 1, 1, 1}, {1, 1, 1, 1, 1, 1}};
+//		System.out.println(sz.solution(board3));
 	}
 	
 	public int solution(int[][] board) {
 		int answer = 0;
 		
-		
+		int[][] map = new int[board.length][board.length];
 		
 		return answer;
 	}
