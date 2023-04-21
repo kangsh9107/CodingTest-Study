@@ -21,6 +21,14 @@ public class SafeZone {
 		int answer = 0;
 		
 		int[][] map = new int[board.length][board.length];
+		boolean[][] visited = new boolean[board.length][board.length];
+		for(int i=0; i<board.length; i++) {
+			for(int j=0; j<board.length; j++) {
+				map[i][j] = board[i][j];
+				System.out.print(map[i][j]);
+			}
+			System.out.println();
+		}
 		
 		return answer;
 	}
