@@ -24,10 +24,11 @@ public class SafeZone {
 		int[][] map = new int[board.length][board.length];
 		for(int i=0; i<board.length; i++) {
 			for(int j=0; j<board.length; j++) {
-				if(map[i][j] == 1) bomb(i, j, map);
+				if(board[i][j] == 1) {
+					bomb(i, j, map);
+				}
 			}
 		}
-		
 		//안전지대 카운팅
 		for(int i=0; i<map.length; i++) {
 			for(int j=0; j<map.length; j++) {
@@ -40,7 +41,17 @@ public class SafeZone {
 	
 	//지뢰 표시
 	public void bomb(int i, int j, int[][] map) {
+		int n = map.length; //map 최대 크기
 		
+		map[i][j] = 1;
+		if(i > 0)     map[i - 1][j] = 1;
+		if(i < n - 1) map[i + 1][j] = 1;
+		if(j > 0)     map[i][j - 1] = 1;
+		if(j < n - 1) map[i][j + 1] = 1;
+		if(i < n - 1 && j < n - 1) map[i + 1][j + 1] = 1;
+		if(i < n - 1 && j > 0)     map[i + 1][j - 1] = 1;
+		if(i > 0 && j < n - 1)     map[i - 1][j + 1] = 1;
+		if(i > 0 && j > 0)         map[i - 1][j - 1] = 1;
 	}
 
 }
