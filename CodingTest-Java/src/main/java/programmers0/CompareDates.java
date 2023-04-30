@@ -14,13 +14,24 @@ public class CompareDates {
 //		int[] date3 = {1024, 10, 24};
 //		int[] date4 = {1024, 10, 24};
 //		System.out.println(cd.solution(date3, date4));
+		
+		int[] date5 = {2023, 3, 24};
+		int[] date6 = {2020, 10, 24};
+		System.out.println(cd.solution(date5, date6));
 	}
 
 	private int solution(int[] date1, int[] date2) {
-        for(int i=0; i<date1.length; i++) {
-            if(date1[i] < date2[i]) return 1;
-        }
-        return 0;
+		String temp1 = "";
+		String temp2 = "";
+		for(int i=0; i<date1.length; i++) {
+			if(date1[i] < 10) temp1 += "0" + date1[i];
+			else temp1 += date1[i];
+			
+			if(date2[i] < 10) temp2 += "0" + date2[i];
+			else temp2 += date2[i];
+		}
+		
+        return Integer.parseInt(temp1) < Integer.parseInt(temp2) ? 1 : 0;
 	}
 
 }
