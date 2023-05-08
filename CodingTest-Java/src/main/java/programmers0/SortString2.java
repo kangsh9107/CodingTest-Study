@@ -2,12 +2,12 @@ package programmers0;
 
 import java.util.Arrays;
 
-public class SortString {
+public class SortString2 {
 
 	//프로그래머스 Level 0. 문자열 정렬하기 (2)
 	//https://school.programmers.co.kr/learn/courses/30/lessons/120911
 	public static void main(String[] args) {
-		SortString ss = new SortString();
+		SortString2 ss = new SortString2();
 		
 		String my_string1 = "Bcad";
 		System.out.println(ss.solution(my_string1));
