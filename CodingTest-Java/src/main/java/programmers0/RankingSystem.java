@@ -5,6 +5,8 @@ import java.util.Collections;
 
 public class RankingSystem {
 
+	//프로그래머스 Level 0. 등수 매기기
+	//https://school.programmers.co.kr/learn/courses/30/lessons/120882
 	public static void main(String[] args) {
 		RankingSystem rs = new RankingSystem();
 		

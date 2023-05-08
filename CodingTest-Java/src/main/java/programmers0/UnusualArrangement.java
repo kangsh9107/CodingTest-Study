@@ -5,28 +5,27 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Iterator;
-import java.util.LinkedHashMap;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 
-public class StrangeArray {
+public class UnusualArrangement {
 
 	//프로그래머스 Level 0. 특이한 정렬
 	//https://school.programmers.co.kr/learn/courses/30/lessons/120880
 	public static void main(String[] args) {
-		StrangeArray sa = new StrangeArray();
+		UnusualArrangement ua = new UnusualArrangement();
 		
-//		int[] numlist1 = {1, 2, 3, 4, 5, 6};
-//		int n1 = 4;
-//		System.out.println(sa.solution(numlist1, n1));
+		int[] numlist1 = {1, 2, 3, 4, 5, 6};
+		int n1 = 4;
+		System.out.println(ua.solution(numlist1, n1));
 		
 		int[] numlist2 = {10000,20,36,47,40,6,10,7000};
 		int n2 = 30;
-		System.out.println(sa.solution(numlist2, n2));
+		System.out.println(ua.solution(numlist2, n2));
 	}
-	
-	public List<Integer> solution(int[] numlist, int n) {
+
+	private List<Integer> solution(int[] numlist, int n) {
 		List<Integer> answer = new ArrayList<>();
 		Map<Integer, Integer> hm = new HashMap<>();
 		for(int i=0; i<numlist.length; i++) {

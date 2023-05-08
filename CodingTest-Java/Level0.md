@@ -64,6 +64,29 @@
 |57|JAVA|코딩테스트 입문|안전지대|도전 하기|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/SafeZone.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120866)|56%|
 |58|JAVA|코딩테스트 입문|삼각형의 완성조건 (2)|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/ConditionOfTriangle2.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120868)|77%|
 |59|JAVA|코딩테스트 입문|외계어 사전|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/AlienDictionary.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120869)|75%|
+|60|JAVA|코딩테스트 입문|저주의 숫자 3|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/CuresedNumberThree.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120871)|71%|
+|61|JAVA|코딩테스트 입문|평행|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/Parallel.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120875)|49%|
+|62|JAVA|코딩테스트 입문|겹치는 선분의 길이|도전 하기|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/DuplicateLine.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120876)|55%|
+|63|JAVA|코딩테스트 입문|유한소수 판별하기|도전 하기|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/FiniteDecimal.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120878)|72%|
+|64|JAVA|코딩테스트 입문|특이한 정렬|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/UnusualArrangement.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120880)|70%|
+|65|JAVA|코딩테스트 입문|등수 매기기|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/RankingSystem.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120882)|72%|
+|66|JAVA|코딩테스트 입문|로그인 성공?|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/LoginSuccess.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120883)|73%|
+|67|JAVA|코딩테스트 입문|치킨 쿠폰|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/ChickenCoupon.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120884)|73%|
+|68|JAVA|코딩테스트 입문|이진수 더하기|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/BinaryAddition.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120885)|81%|
+|69|JAVA|코딩테스트 입문|A로 B 만들기|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/AtoB.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120886)|84%|
+|70|JAVA|코딩테스트 입문|k의 개수|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/CountK.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120887)|83%|
+|71|JAVA|코딩테스트 입문|중복된 문자 제거|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/RemoveDuplicatedString.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120888)|85%|
+|72|JAVA|코딩테스트 입문|삼각형의 완성조건 (1)|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/ConditionOfTriangle1.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120889)|89%|
+|73|JAVA|코딩테스트 입문|가까운 수|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/CloseNumber.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120890)|83%|
+|74|JAVA|코딩테스트 입문|369게임|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/ThreeSixNineGame.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120891)|86%|
+|75|JAVA|코딩테스트 입문|암호 해독|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/Decryption.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120892)|88%|
+|76|JAVA|코딩테스트 입문|대문자와 소문자|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/UpperCaseLowerCase.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120893)|88%|
+|77|JAVA|코딩테스트 입문|영어가 싫어요|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/HateEnglish.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120894)|79%|
+|78|JAVA|코딩테스트 입문|인덱스 바꾸기|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/ChangeIndex.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120895)|87%|
+|79|JAVA|코딩테스트 입문|한 번만 등장한 문자|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/OnlyOnceAppearNumber.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120896)|82%|
+|80|JAVA|코딩테스트 입문|편지|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/Letter.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120898)|89%|
+|81|JAVA|코딩테스트 입문|가장 큰 수 찾기|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/FindMaxNumber.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120899)|87%|
+|82|JAVA|코딩테스트 입문|문자열 계산하기|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/CalculateString.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120902)|78%|
 
 
 
@@ -78,43 +101,20 @@
 
 
 ## 리뉴얼 중입니다.
-|28|JAVA|코딩테스트 입문|편지|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120898)|89%|
 |30|JAVA|코딩테스트 입문|배열의 유사도|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120903)|89%|
-|31|JAVA|코딩테스트 입문|삼각형의 완성조건 (1)|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120889)|89%|
 |34|JAVA|코딩테스트 입문|자릿수 더하기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120906)|89%|
 |36|JAVA|코딩테스트 입문|문자열안에 문자열|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120908)|88%|
 |39|JAVA|코딩테스트 입문|제곱수 판별하기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120909)|88%|
 |40|JAVA|코딩테스트 입문|세균 증식|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120910)|88%|
-|42|JAVA|코딩테스트 입문|암호 해독|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120892)|88%|
-|43|JAVA|코딩테스트 입문|대문자와 소문자|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120893)|88%|
 |46|JAVA|코딩테스트 입문|n의 배수 고르기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120905)|88%|
-|48|JAVA|코딩테스트 입문|인덱스 바꾸기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120895)|87%|
-|50|JAVA|코딩테스트 입문|가장 큰 수 찾기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120899)|87%|
 |54|JAVA|코딩테스트 입문|약수 구하기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120897)|86%|
-|55|JAVA|코딩테스트 입문|369게임|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120891)|85%|
 |56|JAVA|코딩테스트 입문|숫자 찾기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120904)|85%|
 |57|JAVA|코딩테스트 입문|문자열 정렬하기 (2)|완료|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120911)|[바로가기]()|85%|
-|59|JAVA|코딩테스트 입문|중복된 문자 제거|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120888)|84%|
-|61|JAVA|코딩테스트 입문|A로 B 만들기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120886)|83%|
-|64|JAVA|코딩테스트 입문|가까운 수|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120890)|83%|
-|66|JAVA|코딩테스트 입문|k의 개수|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120887)|82%|
-|67|JAVA|코딩테스트 입문|한 번만 등장한 문자|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120896)|82%|
-|69|JAVA|코딩테스트 입문|이진수 더하기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120885)|81%|
 |70|JAVA|코딩테스트 입문|7의 개수|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120912)|80%|
-|73|JAVA|코딩테스트 입문|영어가 싫어요|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120894)|78%|
 |75|JAVA|코딩테스트 입문|잘라서 배열로 저장하기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120913)|78%|
-|76|JAVA|코딩테스트 입문|문자열 계산하기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120902)|77%|
 |80|JAVA|코딩테스트 입문|종이 자르기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120922)|74%|
-|83|JAVA|코딩테스트 입문|로그인 성공?|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120883)|72%|
-|84|JAVA|코딩테스트 입문|치킨 쿠폰|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120884)|71%|
-|85|JAVA|코딩테스트 입문|유한소수 판별하기|도전 하기|[바로가기]|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120878)|70%|
-|86|JAVA|코딩테스트 입문|등수 매기기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120882)|70%|
 |87|JAVA|코딩테스트 입문|문자열 밀기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120921)|70%|
-|88|JAVA|코딩테스트 입문|특이한 정렬|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/StrangeArray.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120880)|69%|
-|89|JAVA|코딩테스트 입문|저주의 숫자 3|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120871)|69%|
 |92|JAVA|코딩테스트 입문|OX퀴즈|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120907)|62%|
 |93|JAVA|코딩테스트 입문|다음에 올 숫자|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120924)|58%|
 |95|JAVA|코딩테스트 입문|연속된 수의 합|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120923)|56%|
-|97|JAVA|코딩테스트 입문|겹치는 선분의 길이|도전 하기|[바로가기]|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120876)|53%|
-|98|JAVA|코딩테스트 입문|평행|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120875)|48%|
 |99|JAVA|코딩테스트 입문|옹알이 (1)|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/120956)|28%|
