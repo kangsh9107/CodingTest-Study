@@ -2,6 +2,8 @@ package programmers0;
 
 public class OXQuiz {
 
+	//프로그래머스 Level 0. OX퀴즈
+	//https://school.programmers.co.kr/learn/courses/30/lessons/120907
 	public static void main(String[] args) {
 		OXQuiz oxq = new OXQuiz();
 		
