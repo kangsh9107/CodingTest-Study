@@ -1,11 +1,11 @@
 package programmers0;
 
-public class Babbling {
+public class Babbling1 {
 
 	//프로그래머스 Level 0. 옹알이 (1)
 	//https://school.programmers.co.kr/learn/courses/30/lessons/120956
 	public static void main(String[] args) {
-		Babbling bb = new Babbling();
+		Babbling1 bb = new Babbling1();
 		
 		String[] babbling1 = {"aya", "yee", "u", "maa", "wyeoo"};
 		System.out.println(bb.solution(babbling1));

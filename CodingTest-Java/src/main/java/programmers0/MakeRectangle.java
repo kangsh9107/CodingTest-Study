@@ -1,11 +1,11 @@
 package programmers0;
 
-public class MakeRedtangle {
+public class MakeRectangle {
 
 	//프로그래머스 Level 0. 정사각형으로 만들기
 	//https://school.programmers.co.kr/learn/courses/30/lessons/181830
 	public static void main(String[] args) {
-		MakeRedtangle mr = new MakeRedtangle();
+		MakeRectangle mr = new MakeRectangle();
 		
 		int[][] arr1 = {{572, 22, 37}, {287, 726, 384}, {85, 137, 292}, {487, 13, 876}};
 		System.out.println(mr.solution(arr1));

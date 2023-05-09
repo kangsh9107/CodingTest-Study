@@ -1,11 +1,11 @@
 package programmers0;
 
-public class SpecialTwoDimensionArray {
+public class SpecialTwoDimensionArray1 {
 
 	//프로그래머스 Level 0. 특별한 이차원 배열 1
 	//https://school.programmers.co.kr/learn/courses/30/lessons/181833
 	public static void main(String[] args) {
-		SpecialTwoDimensionArray stda = new SpecialTwoDimensionArray();
+		SpecialTwoDimensionArray1 stda = new SpecialTwoDimensionArray1();
 		
 		int n1 = 3;
 		System.out.println(stda.solution(n1));
