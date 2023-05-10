@@ -129,27 +129,24 @@
 |122|JAVA|코딩 기초 트레이닝|전국 대회 선발 고사|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/NationalCompetition.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/181851)|66%|
 |123|JAVA|코딩 기초 트레이닝|뒤에서 5등 위로|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/RankFromTheBack.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/181852)|89%|
 |124|JAVA|코딩 기초 트레이닝|뒤에서 5등까지|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/RankFromTheFront.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/181853)|88%|
-
-
-## 리뉴얼 중입니다.
-|125|JAVA|코딩 기초 트레이닝|배열의 길이에 따라 다른 연산하기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/181854)|89%|
-|126|JAVA|코딩 기초 트레이닝|문자열 묶기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/181855)|74%|
-|127|JAVA|코딩 기초 트레이닝|배열 비교하기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/181856)|84%|
-|128|JAVA|코딩 기초 트레이닝|배열의 길이를 2의 거듭제곱으로 만들기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/181857)|74%|
-|129|JAVA|코딩 기초 트레이닝|무작위로 K개의 수 뽑기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/181858)|70%|
-|130|JAVA|코딩 기초 트레이닝|배열 만들기 6|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/181859)|65%|
-|131|JAVA|코딩 기초 트레이닝|빈 배열에 추가, 삭제하기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/181860)|78%|
-|132|JAVA|코딩 기초 트레이닝|배열의 원소만큼 추가하기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/181861)|88%|
-|133|JAVA|코딩 기초 트레이닝|세 개의 구분자|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/181862)|78%|
-|134|JAVA|코딩 기초 트레이닝|rny_string|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/181863)|89%|
-|135|JAVA|코딩 기초 트레이닝|문자열 바꿔서 찾기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/181864)|88%|
-|136|JAVA|코딩 기초 트레이닝|간단한 식 계산하기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/181865)|85%|
-|137|JAVA|코딩 기초 트레이닝|문자열 잘라서 정렬하기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/181866)|84%|
-|138|JAVA|코딩 기초 트레이닝|x 사이의 개수|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/181867)|84%|
-|139|JAVA|코딩 기초 트레이닝|공백으로 구분하기 2|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/181868)|87%|
-|140|JAVA|코딩 기초 트레이닝|공백으로 구분하기 1|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/181869)|90%|
-|141|JAVA|코딩 기초 트레이닝|ad 제거하기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/181870)|85%|
-|142|JAVA|코딩 기초 트레이닝|문자열이 몇 번 등장하는지 세기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/181871)|78%|
-|143|JAVA|코딩 기초 트레이닝|특정 문자열로 끝나는 가장 긴 부분 문자열 찾기|도전 하기|[바로가기]|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/181872)|79%|
-|144|JAVA|코딩 기초 트레이닝|특정한 문자를 대문자로 바꾸기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/181873)|89%|
-|145|JAVA|코딩 기초 트레이닝|A 강조하기|완료|[바로가기]()|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/181874)|87%|
+|125|JAVA|코딩 기초 트레이닝|배열의 길이에 따라 다른 연산하기|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/AdditionArrayElements.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/181854)|89%|
+|126|JAVA|코딩 기초 트레이닝|문자열 묶기|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/StringTying.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/181855)|74%|
+|127|JAVA|코딩 기초 트레이닝|배열 비교하기|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/CompareArray.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/181856)|84%|
+|128|JAVA|코딩 기초 트레이닝|배열의 길이를 2의 거듭제곱으로 만들기|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/SqrtArrayLength.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/181857)|74%|
+|129|JAVA|코딩 기초 트레이닝|무작위로 K개의 수 뽑기|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/RandomChoineNumber.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/181858)|70%|
+|130|JAVA|코딩 기초 트레이닝|배열 만들기 6|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/MakeArray6.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/181859)|65%|
+|131|JAVA|코딩 기초 트레이닝|빈 배열에 추가, 삭제하기|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/EmptyArray.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/181860)|78%|
+|132|JAVA|코딩 기초 트레이닝|배열의 원소만큼 추가하기|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/AddArrayElement.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/181861)|88%|
+|133|JAVA|코딩 기초 트레이닝|세 개의 구분자|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/ThreeSeparator.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/181862)|78%|
+|134|JAVA|코딩 기초 트레이닝|rny_string|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/RnyString.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/181863)|89%|
+|135|JAVA|코딩 기초 트레이닝|문자열 바꿔서 찾기|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/FindTransformString.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/181864)|88%|
+|136|JAVA|코딩 기초 트레이닝|간단한 식 계산하기|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/SimpleCalculating.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/181865)|85%|
+|137|JAVA|코딩 기초 트레이닝|문자열 잘라서 정렬하기|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/SortingCuttedString.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/181866)|84%|
+|138|JAVA|코딩 기초 트레이닝|x 사이의 개수|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/NumberBetweenX.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/181867)|84%|
+|139|JAVA|코딩 기초 트레이닝|공백으로 구분하기 2|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/SeparateBySpace2.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/181868)|87%|
+|140|JAVA|코딩 기초 트레이닝|공백으로 구분하기 1|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/SeparateBySpace1.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/181869)|90%|
+|141|JAVA|코딩 기초 트레이닝|ad 제거하기|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/RemoveAD.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/181870)|85%|
+|142|JAVA|코딩 기초 트레이닝|문자열이 몇 번 등장하는지 세기|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/CountString.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/181871)|78%|
+|143|JAVA|코딩 기초 트레이닝|특정 문자열로 끝나는 가장 긴 부분 문자열 찾기|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/FindLongestString.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/181872)|79%|
+|144|JAVA|코딩 기초 트레이닝|특정한 문자를 대문자로 바꾸기|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/CapitalizeSpecificLetters.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/181873)|89%|
+|145|JAVA|코딩 기초 트레이닝|A 강조하기|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/AEmphasize.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/181874)|87%|

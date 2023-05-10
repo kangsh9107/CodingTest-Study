@@ -2,6 +2,8 @@ package programmers0;
 
 public class FindLongestString {
 
+	//프로그래머스 Level 0. 특정 문자열로 끝나는 가장 긴 부분 문자열 찾기
+	//https://school.programmers.co.kr/learn/courses/30/lessons/181872
 	public static void main(String[] args) {
 		FindLongestString fls = new FindLongestString();
 		
