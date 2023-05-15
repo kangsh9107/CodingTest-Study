@@ -16,23 +16,26 @@ public class ConvertingSequencesAccordingToConditions2 {
 
 	private int solution(int[] arr) {
 		int answer = 0;
-		List<Integer> listA = new ArrayList<>();
-		for(int i=0; i<arr.length; i++) {
-			listA.add(arr[i]);
-		}
+		boolean isChanged = false;
 		
-		while(true) {
-			List<Integer> listB = new ArrayList<>();
+		while( !isChanged ) {
 			for(int i=0; i<arr.length; i++) {
 				if (arr[i] >= 50 && arr[i] % 2 == 0) {
-					listB.add(arr[i] /= 2);
+					arr[i] /= 2;
+					isChanged = true;
 				} else if (arr[i] < 50 && arr[i] % 2 != 0) {
-					listB.add(arr[i] *= 2 + 1);
+					arr[i] *= 2 + 1;
+					isChanged = true;
 				}
 			}
 			
-			if (listA.containsAll(listB)) break;
-			answer++;
+			if (isChanged) {
+				answer++;
+				isChanged = false;
+			} else {
+				answer++;
+				break;
+			}
 		}
 		
 		return answer;
