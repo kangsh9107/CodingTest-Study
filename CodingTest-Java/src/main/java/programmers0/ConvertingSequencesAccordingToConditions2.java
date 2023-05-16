@@ -1,8 +1,5 @@
 package programmers0;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class ConvertingSequencesAccordingToConditions2 {
 
 	//프로그래머스 Level 0. 조건에 맞게 수열 변환하기 2
@@ -16,25 +13,26 @@ public class ConvertingSequencesAccordingToConditions2 {
 
 	private int solution(int[] arr) {
 		int answer = 0;
-		boolean isChanged = false;
+		int cnt = 0;
+		boolean isChanged = true;
 		
-		while( !isChanged ) {
-			for(int i=0; i<arr.length; i++) {
+		while (isChanged) {
+			answer++;
+			cnt = 0;
+			
+			for (int i=0; i<arr.length; i++) {
 				if (arr[i] >= 50 && arr[i] % 2 == 0) {
 					arr[i] /= 2;
-					isChanged = true;
 				} else if (arr[i] < 50 && arr[i] % 2 != 0) {
-					arr[i] *= 2 + 1;
-					isChanged = true;
+					arr[i] = (arr[i] * 2) + 1;
+				} else {
+					cnt++;
 				}
 			}
 			
-			if (isChanged) {
-				answer++;
+			if (cnt == arr.length) {
 				isChanged = false;
-			} else {
-				answer++;
-				break;
+				answer--;
 			}
 		}
 		
