@@ -1,0 +1,8 @@
+## 프로그래머스 Level 1. 조건에 맞는 도서 리스트 출력하기
+## https://school.programmers.co.kr/learn/courses/30/lessons/144853
+
+select book_id, left(published_date, 10) as published_date
+from book
+where left(published_date, 4) = '2021'
+and category = '인문'
+order by published_date;

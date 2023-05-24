@@ -1,0 +1,6 @@
+## 프로그래머스 Level 1. 평균 일일 대여 요금 구하기
+## https://school.programmers.co.kr/learn/courses/30/lessons/151136
+
+select round(avg(daily_fee)) as average_fee
+from CAR_RENTAL_COMPANY_CAR
+where car_type = 'SUV';

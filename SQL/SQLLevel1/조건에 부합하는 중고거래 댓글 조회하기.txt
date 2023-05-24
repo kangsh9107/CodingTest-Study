@@ -1,0 +1,8 @@
+## 프로그래머스 Level 1. 조건에 부합하는 중고거래 댓글 조회하기
+## https://school.programmers.co.kr/learn/courses/30/lessons/164673
+
+select T1.title, T1.board_id, T2.reply_id, T2.writer_id, T2.contents, left(T2.created_date, 10) as created_date
+from used_goods_board T1
+join used_goods_reply T2 on T1.board_id = T2.board_id
+where left(T1.created_date, 7) = '2022-10'
+order by T2.created_date, T1.title;

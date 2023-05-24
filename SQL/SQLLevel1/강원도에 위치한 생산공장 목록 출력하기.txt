@@ -1,0 +1,7 @@
+## 프로그래머스 Level 1. 강원도에 위치한 생산공장 목록 출력하기
+## https://school.programmers.co.kr/learn/courses/30/lessons/131112
+
+select factory_id, factory_name, address
+from food_factory
+where left(address, 2) = '강원'
+order by factory_id;

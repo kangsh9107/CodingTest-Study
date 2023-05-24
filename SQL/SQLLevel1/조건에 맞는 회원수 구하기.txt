@@ -1,0 +1,7 @@
+## 프로그래머스 Level 1. 조건에 맞는 회원수 구하기
+## https://school.programmers.co.kr/learn/courses/30/lessons/131535
+
+select count(user_id) as users
+from user_info
+where (age >= 20 and age <= 29)
+and left(joined, 4) = '2021';

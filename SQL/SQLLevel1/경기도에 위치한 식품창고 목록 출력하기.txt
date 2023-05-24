@@ -1,0 +1,7 @@
+## 프로그래머스 Level 1. 경기도에 위치한 식품창고 목록 출력하기
+## https://school.programmers.co.kr/learn/courses/30/lessons/131114
+
+select warehouse_id, warehouse_name, address, ifnull(freezer_yn, 'N') as freezer_yn
+from food_warehouse
+where left(address, 2) = '경기'
+order by warehouse_id;
