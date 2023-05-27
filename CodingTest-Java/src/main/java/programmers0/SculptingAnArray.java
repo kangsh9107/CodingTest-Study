@@ -1,5 +1,8 @@
 package programmers0;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class SculptingAnArray {
 
 	//프로그래머스 Level 0. 배열 조각하기
@@ -12,15 +15,25 @@ public class SculptingAnArray {
 		System.out.println(saa.solution(arr1, query1));
 	}
 
-	private int[] solution(int[] arr, int[] query) {
+	private List<Integer> solution(int[] arr, int[] query) {
 		int firstIdx = 0;
-		int lastIdx = arr.length - 1;
+		int lastIdx = 0;
 		
 		for (int i=0; i<query.length; i++) {
-			
+			if (query[i] % 2 != 0) {
+				firstIdx += query[i];
+			} else {
+				lastIdx = query[i];
+			}
 		}
 		
-		return null;
+		List<Integer> answer = new ArrayList<>();
+		while (firstIdx + lastIdx < arr.length) {
+			answer.add(arr[firstIdx]);
+			firstIdx++;
+		}
+		
+		return answer;
 	}
 
 }
