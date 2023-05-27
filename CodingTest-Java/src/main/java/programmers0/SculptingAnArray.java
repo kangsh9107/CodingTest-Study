@@ -13,11 +13,14 @@ public class SculptingAnArray {
 	}
 
 	private int[] solution(int[] arr, int[] query) {
-		int[] answer = {};
+		int firstIdx = 0;
+		int lastIdx = arr.length - 1;
 		
+		for (int i=0; i<query.length; i++) {
+			
+		}
 		
-		
-		return answer;
+		return null;
 	}
 
 }
