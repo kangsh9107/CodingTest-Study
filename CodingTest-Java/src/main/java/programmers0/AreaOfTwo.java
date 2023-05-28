@@ -1,7 +1,6 @@
 package programmers0;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.stream.IntStream;
 
 public class AreaOfTwo {
 
@@ -23,29 +22,43 @@ public class AreaOfTwo {
 //		System.out.println(aot.solution(arr4));
 	}
 
-	private List<Integer> solution(int[] arr) {
-		int firstIdx = -1;
-		int lastIdx = -1;
-		for (int i=0; i<arr.length; i++) {
-			if (arr[i] == 2 && firstIdx == -1) {
-				firstIdx = i;
-			} else if (arr[i] == 2) {
-				lastIdx = i;
-			}
-		}
+//	private List<Integer> solution(int[] arr) {
+//		int firstIdx = -1;
+//		int lastIdx = -1;
+//		for (int i=0; i<arr.length; i++) {
+//			if (arr[i] == 2 && firstIdx == -1) {
+//				firstIdx = i;
+//			} else if (arr[i] == 2) {
+//				lastIdx = i;
+//			}
+//		}
+//		
+//		List<Integer> answer = new ArrayList<>();
+//		if ( firstIdx == -1 && lastIdx == -1) {
+//			answer.add(-1);
+//		} else if (lastIdx == -1) {
+//			answer.add(arr[firstIdx]);
+//		} else {
+//			for (int i=firstIdx; i<=lastIdx; i++) {
+//				answer.add(arr[i]);
+//			}
+//		}
+//		
+//		return answer;
+//	}
+	
+	private int[] solution(int[] arr) {
+		int[] idxs = IntStream.range(0, arr.length).filter(i -> arr[i] == 2).toArray();
 		
-		List<Integer> answer = new ArrayList<>();
-		if ( firstIdx == -1 && lastIdx == -1) {
-			answer.add(-1);
-		} else if (lastIdx == -1) {
-			answer.add(arr[firstIdx]);
+		if (idxs.length == 0) {
+			int[] zero = {-1};
+			return zero;
+		} else if (idxs.length == 1) {
+			int[] one = {2};
+			return one;
 		} else {
-			for (int i=firstIdx; i<=lastIdx; i++) {
-				answer.add(arr[i]);
-			}
+			return IntStream.rangeClosed(idxs[0], idxs[idxs.length - 1]).map(i -> arr[i]).toArray();
 		}
-		
-		return answer;
 	}
 
 }
