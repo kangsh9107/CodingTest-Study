@@ -23,14 +23,13 @@ public class SculptingAnArray {
 			if (query[i] % 2 != 0) {
 				firstIdx += query[i];
 			} else {
-				lastIdx = query[i];
+				lastIdx = firstIdx + query[i];
 			}
 		}
 		
 		List<Integer> answer = new ArrayList<>();
-		while (firstIdx + lastIdx < arr.length) {
-			answer.add(arr[firstIdx]);
-			firstIdx++;
+		for (int i=firstIdx; i<=lastIdx; i++) {
+			answer.add(arr[i]);
 		}
 		
 		return answer;
