@@ -17,14 +17,10 @@ public class FirstNegativeNumber {
 	}
 
 	private int solution(int[] num_list) {
-		Arrays.sort(num_list);
+		String str = Arrays.toString(num_list).replaceAll("[\\[\\],0-9]", "");
+		int idx = str.indexOf("-");
 		
-		if (num_list[0] >= 0) {
-			return -1;
-		} else {
-			
-			return 0;
-		}
+		return idx;
 	}
 
 }
