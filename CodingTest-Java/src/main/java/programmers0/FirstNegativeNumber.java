@@ -18,9 +18,7 @@ public class FirstNegativeNumber {
 
 	private int solution(int[] num_list) {
 		String str = Arrays.toString(num_list).replaceAll("[\\[\\],0-9]", "");
-		int idx = str.indexOf("-");
-		
-		return idx;
+		return str.indexOf("-");
 	}
 
 }
