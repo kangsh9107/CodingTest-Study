@@ -1,10 +1,5 @@
 package programmers0;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
 public class CharacterCount {
 
 	//프로그래머스 Level 0. 문자 개수 세기
