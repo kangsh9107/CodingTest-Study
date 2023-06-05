@@ -19,11 +19,14 @@ public class VerticalReading {
 	}
 
 	private String solution(String my_string, int m, int c) {
-		String answer = "";
+		StringBuilder answer = new StringBuilder();
+		for (int i=c-1; i<my_string.length(); i+=m) {
+			if (i <= my_string.length()) {
+				answer.append(my_string.charAt(i));
+			}
+		}
 		
-		
-		
-		return answer;
+		return answer.toString();
 	}
 
 }
