@@ -19,9 +19,11 @@ public class BasicReverseString {
 	}
 
 	private String solution(String my_string, int s, int e) {
-		StringBuilder answer = new StringBuilder();
-		answer.append(my_string.substring(s, e + 1)).reverse();
-		return my_string.substring(0, s) + answer.toString();
+		StringBuilder sb = new StringBuilder();
+		String first = my_string.substring(0, s);
+		String middle = sb.append(my_string.substring(s, e + 1)).reverse().toString();
+		String last = my_string.substring(e + 1);
+		return first + middle + last;
 	}
 
 }
