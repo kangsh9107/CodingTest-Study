@@ -8,16 +8,20 @@ public class ReverseAStringMultipleTimes {
 		ReverseAStringMultipleTimes rasmt = new ReverseAStringMultipleTimes();
 		
 		String my_string1 = "rermgorpsam";
-		int[][] queries = {{2, 3}, {0, 7}, {5, 9}, {6, 10}};
-		System.out.println(rasmt.solution(my_string1));
+		int[][] queries1 = {{2, 3}, {0, 7}, {5, 9}, {6, 10}};
+		System.out.println(rasmt.solution(my_string1, queries1));
 	}
 
-	private String solution(String my_string) {
-		StringBuilder answer = new StringBuilder();
+	private String solution(String my_string, int[][] queries) {
+		for (int i=0; i<queries.length; i++) {
+			int start = queries[i][0];
+			int end = queries[i][1] + 1;
+			String reg = my_string.substring(start, end);
+			
+//			my_string.replaceAll(reg, );
+		}
 		
-		
-		
-		return answer.toString();
+		return my_string;
 	}
 
 }
