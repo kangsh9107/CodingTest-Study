@@ -13,12 +13,19 @@ public class ReverseAStringMultipleTimes {
 	}
 
 	private String solution(String my_string, int[][] queries) {
+		StringBuilder reverse = new StringBuilder();
+		
 		for (int i=0; i<queries.length; i++) {
 			int start = queries[i][0];
 			int end = queries[i][1] + 1;
-			String reg = my_string.substring(start, end);
+			String prefix = my_string.substring(0, start);
+			String suffix = my_string.substring(end);
 			
-//			my_string.replaceAll(reg, );
+			reverse.setLength(0);
+			reverse.append(my_string.substring(start, end));
+			reverse.reverse();
+			
+			my_string = prefix + reverse.toString() + suffix;
 		}
 		
 		return my_string;
