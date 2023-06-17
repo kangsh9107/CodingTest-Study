@@ -13,9 +13,13 @@ public class CountUp {
 	}
 
 	private int[] solution(int start, int end) {
-		int[] answer = {};
+		int[] answer = new int[end - start + 1];
+		int idx = 0;
 		
-		
+		for (int i=0; i<answer.length; i++) {
+			answer[i] = start;
+			start++;
+		}
 		
 		return answer;
 	}
