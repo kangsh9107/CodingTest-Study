@@ -3,8 +3,8 @@ package main.java.programmers0;
 public class ConditionString {
 
     /*
-     * 프로그래머스 Level 0. 코드 처리하기
-     * https://school.programmers.co.kr/learn/courses/30/lessons/181932
+     * 프로그래머스 Level 0. 조건 문자열
+     * https://school.programmers.co.kr/learn/courses/30/lessons/181934
      *
      * 생성일 : 2023-06-21
      * 완료일 : 2023-06-21

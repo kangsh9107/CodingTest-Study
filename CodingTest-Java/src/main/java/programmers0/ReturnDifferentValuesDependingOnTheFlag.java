@@ -3,8 +3,8 @@ package main.java.programmers0;
 public class ReturnDifferentValuesDependingOnTheFlag {
 
     /*
-     * 프로그래머스 Level 0. 코드 처리하기
-     * https://school.programmers.co.kr/learn/courses/30/lessons/181932
+     * 프로그래머스 Level 0. flag에 따라 다른 값 반환하기
+     * https://school.programmers.co.kr/learn/courses/30/lessons/181933
      *
      * 생성일 : 2023-06-21
      * 완료일 : 2023-06-21
