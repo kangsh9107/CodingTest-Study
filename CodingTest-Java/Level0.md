@@ -208,3 +208,16 @@
 | 195 |JAVA|코딩 기초 트레이닝|주사위 게임 2|  완료   |[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/DiceGame2.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/181930)|86%|
 | 196 |JAVA|코딩 기초 트레이닝|등차수열의 특정한 항만 더하기|  완료   |[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/AddingAnArithmeticSequence.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/181931)|84%|
 | 197 |JAVA|코딩 기초 트레이닝|코드 처리하기|  완료   |[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/ProcessingTheCode.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/181932)|66%|
+
+
+
+| 198 |JAVA|코딩 기초 트레이닝|flag에 따라 다른 값 반환하기|  완료   |[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/ReturnDifferentValuesDependingOnTheFlag.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/181933)|89%|
+| 199 |JAVA|코딩 기초 트레이닝|조건 문자열|  완료   |[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/ConditionString.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/181934)|77%|
+| 200 |JAVA|코딩 기초 트레이닝|홀짝에 따라 다른 값 반환하기|  완료   |[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/ReturningValuesDependingOnOddOrEven.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/181935)|89%|
+| 201 |JAVA|코딩 기초 트레이닝|공배수|  완료   |[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/CommonMultiple.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/181936)|89%|
+| 202 |JAVA|코딩 기초 트레이닝|n의 배수|  완료   |[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/MultipleOfN.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/181937)|89%|
+| 203 |JAVA|코딩 기초 트레이닝|두 수의 연산값 비교하기|  완료   |[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/ComparingTheOperationValueOfTwoNumbers.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/181938)|86%|
+| 204 |JAVA|코딩 기초 트레이닝|더 크게 합치기|  완료   |[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/MergeBigger.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/181939)|88%|
+| 205 |JAVA|코딩 기초 트레이닝|문자열 곱하기|  완료   |[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/MultiplyAString.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/181940)|89%|
+| 206 |JAVA|코딩 기초 트레이닝|문자 리스트를 문자열로 변환하기|  완료   |[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/ConvertCharacterListToString.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/181941)|89%|
+| 207 |JAVA|코딩 기초 트레이닝|문자열 섞기|  완료   |[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers0/ShuffleStrings.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/181942)|87%|
