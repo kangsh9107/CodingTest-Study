@@ -1,5 +1,7 @@
 package main.java.programmers0;
 
+import java.math.BigInteger;
+
 public class SumOfTwoNumbers {
 
     /*
@@ -7,7 +9,7 @@ public class SumOfTwoNumbers {
      * https://school.programmers.co.kr/learn/courses/30/lessons/181846
      *
      * 생성일 : 2023-06-23
-     * 완료일 : 2023-06-23
+     * 완료일 : 2023-06-25
      */
     public static void main(String[] args) {
         SumOfTwoNumbers sol = new SumOfTwoNumbers();
@@ -26,11 +28,10 @@ public class SumOfTwoNumbers {
     }
 
     private String solution(String a, String b) {
-        String answer = "";
-
-
-
-        return answer;
+        BigInteger bigA = new BigInteger(a);
+        BigInteger bigB = new BigInteger(b);
+        BigInteger answer = bigA.add(bigB);
+        return answer.toString();
     }
 
 }
