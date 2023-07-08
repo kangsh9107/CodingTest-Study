@@ -53,6 +53,7 @@ public class PlacingIntegersInASpiral {
             leftCol++;
         }
 
+
         return answer;
     }
 
