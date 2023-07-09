@@ -20,41 +20,40 @@ public class PlacingIntegersInASpiral {
     }
 
     private int[][] solution(int n) {
-        int[][] answer  = new int[n][n];
-        int start = 1;
-        int topRow = 0;
-        int bottomRow = n - 1;
-        int leftCol = 0;
-        int rightCol = n - 1;
+        int[][] snailArray  = new int[n][n];
+        int num = 1;
+        int currentRow = 0;
+        int lastRow = n - 1;
+        int currentCol = 0;
+        int lastCol = n - 1;
 
-        while (start <= n * n) {
+        while (num <= n * n) {
             // 오른쪽으로 이동
-            for (int i = leftCol; i <= rightCol; i++) {
-                answer[topRow][i] = start++;
+            for (int i = currentCol; i <= lastCol; i++) {
+                snailArray[currentRow][i] = num++;
             }
-            topRow++;
+            currentRow++;
 
             // 아래로 이동
-            for (int i = topRow; i <= bottomRow; i++) {
-                answer[i][rightCol] = start++;
+            for (int i = currentRow; i <= lastRow; i++) {
+                snailArray[i][lastCol] = num++;
             }
-            rightCol--;
+            lastCol--;
 
             // 왼쪽으로 이동
-            for (int i = rightCol; i >= leftCol; i--) {
-                answer[bottomRow][i] = start++;
+            for (int i = lastCol; i >= currentCol; i--) {
+                snailArray[lastRow][i] = num++;
             }
-            bottomRow--;
+            lastRow--;
 
             // 위로 이동
-            for (int i = bottomRow; i >= topRow; i--) {
-                answer[i][leftCol] = start++;
+            for (int i = lastRow; i >= currentRow; i--) {
+                snailArray[i][currentCol] = num++;
             }
-            leftCol++;
+            currentCol++;
         }
 
-
-        return answer;
+        return snailArray;
     }
 
 }
