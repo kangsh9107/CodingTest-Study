@@ -2,8 +2,8 @@
 
 ## Level 1. 오래된 순
 
-| NO | 언어 | 문제 유형 | 문제 | 풀이 여부 | 풀이 링크 | 문제 링크 | 정답률 |
-|:--: |:--: |:--: |:--: |:--: |:--: |:--: |:--: |
+|NO|언어|문제 유형|문제|풀이 여부|풀이 링크|문제 링크|정답률|
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 |000|JAVA|해시|폰켓몬|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/Poketmon.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/1845)|62%|
 |001|JAVA|연습문제|2016년|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/TwoThousandSixteen.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12901)|63%|
 |002|JAVA|연습문제|가운데 글자 가져오기|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/TakeMiddleString.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12903)|83%|
