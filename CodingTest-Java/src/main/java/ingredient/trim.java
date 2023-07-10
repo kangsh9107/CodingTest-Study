@@ -9,7 +9,7 @@ import java.util.List;
 public class trim {
 
     /*
-     * README.md 파일 trim
+     * README.md trim
      * 생성일 : 2023-07-10
      */
     public static void main(String[] args) {
