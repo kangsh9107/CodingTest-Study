@@ -18,7 +18,7 @@ public class trim {
 
         List<String[]> table = parseTable(text);
 
-        printTable(table);
+        printTable(table); // 좌우 공백 제거
     }
 
     private static List<String[]> parseTable(String text) {
