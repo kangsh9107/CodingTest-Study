@@ -20,17 +20,23 @@ public class CraneDrawGame {
 		basket.push(0);
 
 		for (int i = 0; i < moves.length; i++) {
-			int location = moves[i];
+			int location = moves[i] - 1;
 
-			for (int j = 0; j < board[location].length; j++) {
-				if (board[location][j] != 0) {
-					if (board[location][j] == basket.peek()) {
-
+			for (int j = 0; j < board.length; j++) {
+				if (board[j][location] != 0) {
+					if (board[j][location] == basket.peek()) {
+						answer += 2;
+						basket.pop();
+					} else {
+						basket.push(board[j][location]);
 					}
+
+					board[j][location] = 0;
+					break;
 				}
 			}
 		}
-		
+
 		return answer;
 	}
 
