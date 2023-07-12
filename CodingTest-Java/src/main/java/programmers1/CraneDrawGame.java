@@ -1,5 +1,7 @@
 package programmers1;
 
+import java.util.Stack;
+
 public class CraneDrawGame {
 
 	//프로그래머스 Level 1. 크레인 인형뽑기 게임
@@ -14,8 +16,20 @@ public class CraneDrawGame {
 	
 	public int solution(int[][] board, int[] moves) {
 		int answer = 0;
-		
-		
+		Stack<Integer> basket = new Stack<>();
+		basket.push(0);
+
+		for (int i = 0; i < moves.length; i++) {
+			int location = moves[i];
+
+			for (int j = 0; j < board[location].length; j++) {
+				if (board[location][j] != 0) {
+					if (board[location][j] == basket.peek()) {
+
+					}
+				}
+			}
+		}
 		
 		return answer;
 	}

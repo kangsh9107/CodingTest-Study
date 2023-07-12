@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 
-public class Stack {
+public class StackProblem {
 
-	public static void main(String[] args) {
+	private static void main(String[] args) {
 		int[] arr = {1,1,3,3,0,1,1};
 //		int[] arr = {4,4,4,3,3};
 		HashSet<Integer> hs = new HashSet<>();
