@@ -25,10 +25,11 @@ public class WorkInThePark {
 //        System.out.println(sol.solution(park3, routes3));
     }
 
+    private static int robotDogH = 0;
+    private static int robotDogW = 0;
+
     private int[] solution(String[] park, String[] routes) {
         // 로봇 강아지 위치
-        int robotDogH = 0;
-        int robotDogW = 0;
         for (int i = 0; i < park.length; i++) {
             if (park[i].indexOf('S') != -1) {
                 robotDogH = i;
@@ -43,22 +44,42 @@ public class WorkInThePark {
             String direction = split[0];
             int distance = Integer.parseInt(split[1]);
 
-            isMove(park, robotDogH, robotDogW, direction, distance);
+            isMove(park, direction, distance);
         }
 
         return new int[]{robotDogH, robotDogW};
     }
 
     // 로봇 강아지 이동 여부
-    private void isMove(String[] park, int robotDogH, int robotDogW, String direction, int distance) {
-        if (direction.equals("E") && robotDogW + distance <= park.length - 1) {
-            robotDogW += distance;
+    private void isMove(String[] park, String direction, int distance) {
+        if (direction.equals("E") && robotDogW + distance <= park[0].length() - 1) {
+            if (park[robotDogH].substring(robotDogW, robotDogW + distance + 1).contains("X")) {
+                robotDogW += distance;
+            }
         } else if (direction.equals("W") && robotDogW - distance >= 0) {
-            robotDogW -= distance;
-        } else if (direction.equals("S") && robotDogH + distance <= park[0].length() - 1) {
-            robotDogH += distance;
+            if (park[robotDogH].substring(robotDogW - distance, robotDogW + 1).contains("X")) {
+                robotDogW -= distance;
+            }
+        } else if (direction.equals("S") && robotDogH + distance <= park.length - 1) {
+            boolean move = true;
+            for (int i = robotDogW; i <= robotDogW + distance; i++) {
+                if (park[i].substring(robotDogW, robotDogW + 1).equals("X")) {
+                    move = false;
+                    break;
+                }
+            }
+
+            if (move) robotDogH += distance;
         } else if (direction.equals("N") && robotDogH - distance >= 0) {
-            robotDogH -= distance;
+            boolean move = true;
+            for (int i = robotDogW; i >= robotDogW - distance; i--) {
+                if (park[i].substring(robotDogW, robotDogW + 1).equals("X")) {
+                    move = false;
+                    break;
+                }
+            }
+
+            if (move) robotDogH -= distance;
         }
     }
 }
