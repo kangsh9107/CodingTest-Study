@@ -29,7 +29,7 @@ public class WorkInThePark {
     private static int robotDogW = 0;
 
     private int[] solution(String[] park, String[] routes) {
-        // 로봇 강아지 위치
+        // 로봇 강아지 좌표
         for (int i = 0; i < park.length; i++) {
             if (park[i].indexOf('S') != -1) {
                 robotDogH = i;
@@ -38,7 +38,7 @@ public class WorkInThePark {
             }
         }
 
-        // 로봇 강아지 이동 명령 전체 확인
+        // 로봇 강아지 이동 명령 확인
         for (int i = 0; i < routes.length; i++) {
             String[] split = routes[i].split(" ");
             String direction = split[0];
@@ -53,16 +53,16 @@ public class WorkInThePark {
     // 로봇 강아지 이동 여부
     private void isMove(String[] park, String direction, int distance) {
         if (direction.equals("E") && robotDogW + distance <= park[0].length() - 1) {
-            if (park[robotDogH].substring(robotDogW, robotDogW + distance + 1).contains("X")) {
+            if (!park[robotDogH].substring(robotDogW, robotDogW + distance + 1).contains("X")) {
                 robotDogW += distance;
             }
         } else if (direction.equals("W") && robotDogW - distance >= 0) {
-            if (park[robotDogH].substring(robotDogW - distance, robotDogW + 1).contains("X")) {
+            if (!park[robotDogH].substring(robotDogW - distance, robotDogW + 1).contains("X")) {
                 robotDogW -= distance;
             }
         } else if (direction.equals("S") && robotDogH + distance <= park.length - 1) {
             boolean move = true;
-            for (int i = robotDogW; i <= robotDogW + distance; i++) {
+            for (int i = robotDogH; i <= robotDogH + distance; i++) {
                 if (park[i].substring(robotDogW, robotDogW + 1).equals("X")) {
                     move = false;
                     break;
@@ -72,7 +72,7 @@ public class WorkInThePark {
             if (move) robotDogH += distance;
         } else if (direction.equals("N") && robotDogH - distance >= 0) {
             boolean move = true;
-            for (int i = robotDogW; i >= robotDogW - distance; i--) {
+            for (int i = robotDogH; i >= robotDogH - distance; i--) {
                 if (park[i].substring(robotDogW, robotDogW + 1).equals("X")) {
                     move = false;
                     break;

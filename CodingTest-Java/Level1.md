@@ -78,6 +78,6 @@
 |071|JAVA|연습문제|대충 만든 자판|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/Keyboard.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/160586)|43%|
 |072|JAVA|연습문제|덧칠하기|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/TopCoat.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/161989)|55%|
 |073|JAVA|연습문제|바탕화면 정리|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/DesktopCleanup.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/161990)|42%|
-|074|JAVA|연습문제|공원 산책|도전 하기|[바로가기]|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/172928)|30%|
+|074|JAVA|연습문제|공원 산책|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/WorkInThePark.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/172928)|38%|
 |075|JAVA|연습문제|추억 점수|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/MemoryScore.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/176963)|56%|
 |076|JAVA|연습문제|달리기 경주|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers1/RunningRace.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/178871)|38%|
