@@ -7,7 +7,7 @@
 |000|JAVA|연습문제|올바른 괄호|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers2/CorrectParentheses.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12909)|76%|
 |001|JAVA|연습문제|다음 큰 숫자|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers2/NextBiggerNumber.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12911)|72%|
 |002|JAVA|연습문제|멀리 뛰기|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers2/LongJump.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12914)|66%|
-|003|JAVA|연습문제|숫자의 표현|도전 하기|[바로가기]|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12924)|73%|
+|003|JAVA|연습문제|숫자의 표현|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers2/RepresentationOfNumber.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12924)|73%|
 |004|JAVA|연습문제|최댓값과 최솟값|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers2/MaxMin.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12939)|79%|
 |005|JAVA|연습문제|최솟값 만들기|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers2/MakeMin.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12941)|76%|
 |006|JAVA|연습문제|피보나치 수|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers2/Fibonacci.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12945)|72%|
