@@ -7,7 +7,7 @@ public class WorkInThePark {
      * https://school.programmers.co.kr/learn/courses/30/lessons/172928
      *
      * 생성일 : 2023-07-14
-     * 완료일 : 2023-07-
+     * 완료일 : 2023-07-15
      */
     public static void main(String[] args) {
         WorkInThePark sol = new WorkInThePark();

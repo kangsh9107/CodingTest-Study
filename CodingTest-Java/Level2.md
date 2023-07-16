@@ -2,7 +2,7 @@
 
 ## Level 2. 오래된 순
 
-|NO|언어|문제 유형|문제|풀이 여부|풀이 링크|문제 링크|정답률|
+|NO|언어|문제 유형|문제|완료 여부|풀이 링크|문제 링크|정답률|
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 |000|JAVA|연습문제|올바른 괄호|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers2/CorrectParentheses.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12909)|76%|
 |001|JAVA|연습문제|다음 큰 숫자|완료|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/src/main/java/programmers2/NextBiggerNumber.java)|[바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12911)|72%|

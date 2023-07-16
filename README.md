@@ -1,6 +1,6 @@
 ## 프로그래머스
 
-|문제 난이도|풀이 링크|해결한 문제|도전한 문제|해결비율(%)|
+|난이도|풀이 링크|완료|도전|완료율(%)|
 |:--:|:--:|:--:|:--:|:--:|
 |Level 0.|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/Level0.md)|224|224|100%|
 |Level 1.|[바로가기](https://github.com/kangsh9107/CodingTest-Study/blob/main/CodingTest-Java/Level1.md)|77|77|100%|
