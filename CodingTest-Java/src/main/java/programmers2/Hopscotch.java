@@ -1,5 +1,8 @@
 package main.java.programmers2;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /*
  * 프로그래머스 Level 2. 땅따먹기
  * https://school.programmers.co.kr/learn/courses/30/lessons/12913
@@ -18,8 +21,13 @@ public class Hopscotch {
 
     private int solution(int[][] land) {
         int answer = 0;
-        int sum = 0;
+        List<Integer> sum = new ArrayList<>();
 
+        for (int i = 0; i < land.length; i++) {
+            for (int j = 0; j < land[0].length; j++) {
+
+            }
+        }
 
         return answer;
     }
