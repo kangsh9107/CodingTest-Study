@@ -1,4 +1,4 @@
-package main.java.programmers0;
+package programmers0;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -20,7 +20,11 @@ public class PrintAStringRepeatedly {
         String str = st.nextToken();
         int cnt = Integer.parseInt(st.nextToken());
 
-        System.out.println(str.repeat(cnt));
+        StringBuilder answer = new StringBuilder();
+        for (int i = 0; i < cnt; i++) {
+            answer.append(str);
+        }
+        System.out.println(answer.toString());
     }
 
 }

@@ -1,4 +1,4 @@
-package main.java.programmers0;
+package programmers0;
 
 public class MultiplyAString {
 
@@ -22,7 +22,11 @@ public class MultiplyAString {
     }
 
     private String solution(String my_string, int k) {
-        return my_string.repeat(k);
+        StringBuilder answer = new StringBuilder();
+        for (int i = 0; i < k; i++) {
+            answer.append(my_string);
+        }
+        return answer.toString();
     }
 
 }
