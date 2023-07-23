@@ -7,7 +7,7 @@ import java.util.Arrays;
  * https://school.programmers.co.kr/learn/courses/30/lessons/12913
  *
  * 생성일 : 2023-07-16
- * 완료일 :
+ * 완료일 : 2023-07-22
  */
 public class Hopscotch {
 
