@@ -12,5 +12,5 @@
 [![Solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=lushhush)](https://solved.ac/lushhush)
 
 ##
-#### Last Update 2023-07-16
+#### Last Update 2023-07-24
 [문제해석, 아이디어 정리 블로그](https://lush-hush.tistory.com/)
