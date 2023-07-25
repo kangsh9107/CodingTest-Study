@@ -34,7 +34,6 @@ public class OneTwoFourCountry {
             div /= 3;
         }
 
-
         return answer.toString();
     }
 }
