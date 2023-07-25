@@ -26,10 +26,15 @@ public class OneTwoFourCountry {
     }
 
     private String solution(int n) {
-        String answer = "";
+        StringBuilder answer = new StringBuilder();
+        int div = n;
+        int mod = n % 3;
+
+        while (n < 3) {
+            div /= 3;
+        }
 
 
-
-        return answer;
+        return answer.toString();
     }
 }
