@@ -18,22 +18,34 @@ public class OneTwoFourCountry {
         int n2 = 2;
         System.out.println(sol.solution(n2));
 
-        int n3 = 4;
+        int n3 = 3;
         System.out.println(sol.solution(n3));
 
-        int n4 = 11;
+        int n4 = 4;
         System.out.println(sol.solution(n4));
+
+        int n5 = 5;
+        System.out.println(sol.solution(n5));
+
+        int n6 = 6;
+        System.out.println(sol.solution(n6));
+
+        int n7 = 7;
+        System.out.println(sol.solution(n7));
+
+        int n8 = 8;
+        System.out.println(sol.solution(n8));
+
+        int n9 = 9;
+        System.out.println(sol.solution(n9));
+
+        int n10 = 10;
+        System.out.println(sol.solution(n10));
     }
 
     private String solution(int n) {
-        StringBuilder answer = new StringBuilder();
-        int div = n;
-        int mod = n % 3;
+        StringBuilder answer = new StringBuilder(Integer.toString(n, 4));
 
-        while (n < 3) {
-            div /= 3;
-        }
-
-        return answer.toString();
+        return answer.toString().replace("0", "1").replace("3", "4");
     }
 }
