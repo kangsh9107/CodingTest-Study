@@ -44,8 +44,21 @@ public class OneTwoFourCountry {
     }
 
     private String solution(int n) {
-        StringBuilder answer = new StringBuilder(Integer.toString(n, 4));
+        StringBuilder answer = new StringBuilder();
+        int div = n;
+        int mod = n % 3;
 
-        return answer.toString().replace("0", "1").replace("3", "4");
+        if (mod == 0) {
+            answer.append("4");
+        } else {
+            answer.append(mod);
+        }
+
+        while (div > 3) {
+            div /= 3;
+            answer.append(div);
+        }
+
+        return answer.toString();
     }
 }
