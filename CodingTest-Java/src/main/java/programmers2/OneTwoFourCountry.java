@@ -45,19 +45,8 @@ public class OneTwoFourCountry {
 
     private String solution(int n) {
         StringBuilder answer = new StringBuilder();
-        int div = n;
-        int mod = n % 3;
 
-        if (mod == 0) {
-            answer.append("4");
-        } else {
-            answer.append(mod);
-        }
 
-        while (div > 3) {
-            div /= 3;
-            answer.append(div);
-        }
 
         return answer.toString();
     }
