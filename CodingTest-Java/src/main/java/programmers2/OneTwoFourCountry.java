@@ -46,8 +46,18 @@ public class OneTwoFourCountry {
     private String solution(int n) {
         StringBuilder answer = new StringBuilder();
 
+        while (n > 0) {
+            int remainder = n % 3;
+            n /= 3;
 
+            if (remainder == 0) {
+                remainder = 4;
+                n--;
+            }
 
-        return answer.toString();
+            answer.append(remainder);
+        }
+
+        return answer.reverse().toString();
     }
 }
