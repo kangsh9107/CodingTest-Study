@@ -5,7 +5,7 @@ package main.java.programmers2;
  * https://school.programmers.co.kr/learn/courses/30/lessons/12949
  *
  * 생성일 : 2023-08-02
- * 완료일 :
+ * 완료일 : 2023-08-21
  */
 public class MatrixMultiplication {
 
@@ -22,8 +22,22 @@ public class MatrixMultiplication {
     }
 
     private int[][] solution(int[][] arr1, int[][] arr2) {
-        int[][] answer = new int[arr1.length][arr2[0].length];
+        int row = arr1.length;       // arr1의 행의 개수
+        int col = arr2[0].length;    // arr2의 열의 개수
+        int sumLength = arr2.length; // arr1의 열의 개수 = arr2의 행의 개수
+        int[][] answer = new int[row][col];
 
+        for (int i = 0; i < row; i++) {
+            for (int j = 0; j < col; j++) {
+                int sum = 0;
+
+                for (int k = 0; k < sumLength; k++) {
+                    sum += arr1[i][k] * arr2[k][j]; // arr1의 i번째 행의 각 원소와 arr2의 j번째 열의 각 원소를 곱해서 더함
+                }
+
+                answer[i][j] = sum;
+            }
+        }
 
         return answer;
     }
