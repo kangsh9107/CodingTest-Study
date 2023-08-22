@@ -5,7 +5,7 @@ package main.java.programmers2;
  * https://school.programmers.co.kr/learn/courses/30/lessons/12953
  *
  * 생성일 : 2023-08-21
- * 완료일 :
+ * 완료일 : 2023-08-22
  */
 public class LeastCommonMultiples {
 
@@ -15,26 +15,36 @@ public class LeastCommonMultiples {
         int[] arr1 = {2, 6, 8, 14};
         System.out.println(sol.solution(arr1));
 
-//        int[] arr2 = {1, 2, 3};
-//        System.out.println(sol.solution(arr2));
+        int[] arr2 = {1, 2, 3};
+        System.out.println(sol.solution(arr2));
     }
 
     private int solution(int[] arr) {
-        int answer = arr[0];
-
         if (arr.length == 1) {
-            return answer;
+            return arr[0];
         } else {
-            int max = 1;
+            int answer = arr[0];
 
             for (int i = 0; i < arr.length; i++) {
-                max *= arr[i];
+                answer = lcm(answer, arr[i]);
             }
 
-            
+            return answer;
+        }
+    }
+
+    // 최대 공약수
+    private int gcd(int a, int b) {
+        if (b == 0) {
+            return a;
         }
 
-        return answer;
+        return gcd(b, a % b);
+    }
+
+    // 최소 공배수
+    private int lcm(int a, int b) {
+        return (a * b) / gcd(a, b);
     }
 
 }
