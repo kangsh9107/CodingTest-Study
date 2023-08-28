@@ -26,7 +26,11 @@ public class JumpAndTeleport {
         int answer = 0;
 
         for (int i = 0; i < n; i++) {
-            
+            n /= 2;
+
+            if (n % 2 == 0) {
+                answer++;
+            }
         }
 
         return answer;
