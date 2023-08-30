@@ -32,7 +32,6 @@ public class JumpAndTeleport {
                 answer++;
             }
         }
-        
 
         return answer;
     }
