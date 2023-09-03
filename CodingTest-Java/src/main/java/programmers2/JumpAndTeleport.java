@@ -24,13 +24,11 @@ public class JumpAndTeleport {
 
     private int solution(int n) {
         int answer = 0;
-        
-        for (int i = 0; i < n; i++) {
-            n /= 2;
+        int jump = 0;
+        int teleport = 0;
 
-            if (n % 2 == 0) {
-                answer++;
-            }
+        while (n > 1) {
+
         }
 
         return answer;
